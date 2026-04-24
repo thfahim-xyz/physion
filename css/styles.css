@@ -1,7 +1,7 @@
 body {
-      margin: 0;
+      margin: 8px;
       font-family: Arial, sans-serif;
-      background-color: #0d0d0d;
+      background-color: #070707;
       color: #e0e0e0;
       line-height: 1.6;
     }
@@ -26,7 +26,7 @@ body {
       display: inline-block;
       margin-top: 20px;
       padding: 10px 20px;
-      background: #4a90e2;
+      background: #0073ff;
       color: white;
       text-decoration: none;
       border-radius: 5px;
@@ -54,7 +54,7 @@ body {
     }
 
     a {
-      color: #4a90e2;
+      color: #0073ff;
       text-decoration: none;
     }
 
@@ -70,3 +70,77 @@ body {
       font-size: 0.9rem;
       color: #888;
     }
+
+/* HEADER */
+.site-header {
+  border-bottom: 1px solid #333;
+  padding: 20px 40px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  color: white;
+}
+
+.top-nav a {
+  color: #0073ff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+/* LAYOUT */
+.layout {
+  display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 240px;
+  padding: 20px;
+  border-right: 1px solid #333;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar a {
+  color: #0073ff;
+  text-decoration: none;
+}
+
+/* SUBMENU */
+.submenu {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.submenu li {
+  margin: 5px 0;
+}
+
+/* CONTENT */
+.content {
+  flex: 1;
+  padding: 40px;
+  max-width: 800px;
+}
+
+/* FOOTER */
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #333;
+  color: #888;
+}
