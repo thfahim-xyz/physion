@@ -3,12 +3,7 @@ layout: default
 title: Physion
 ---
 
-# Physion
-
-Understanding physics
-<a class="btn" href="intro.html">Start Learning</a>
-
-## Main Topics
+# Main Topics
 - Foundations of Physics
 - Mathematical Methods
 - Classical Mechanics
@@ -19,8 +14,8 @@ Understanding physics
 - Continuum Mechanics
 - Optics
 
-## Featured
+# Featured
 Foundations of Physics
 
-## About
+# About
 Physion is a personal project dedicated to understanding physics deeply — not just equations, but also the meaning and beauty of physics. Built through curiosity, reason, and a love for truth.
