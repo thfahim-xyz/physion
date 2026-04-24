@@ -6,7 +6,7 @@ title: Physion
 # Physion
 
 Understanding physics
-[Start Learning](intro.html)
+<a class="btn" href="intro.html">Start Learning</a>
 
 ## Main Topics
 - Foundations of Physics
