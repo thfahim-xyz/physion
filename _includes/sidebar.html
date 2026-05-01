@@ -1,0 +1,24 @@
+{% assign book = site.data[page.book] %}
+
+<aside class="sidebar">
+
+  <a href="{{ book.domain_url }}" class="sideheader"><h3>{{ book.domain }}</h3></a>
+
+  <ul>
+    {% for item in book.menu %}
+      <li>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+
+        {% if item.children %}
+          <ul class="submenu">
+            {% for child in item.children %}
+              <li>
+                <a href="{{ child.url }}">{{ child.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
