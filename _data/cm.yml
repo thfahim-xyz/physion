@@ -1,0 +1,43 @@
+domain: Classical Mechanics
+domain_url: /books/cm/cm0
+menu:
+  - title: Elementary Mechanics
+    url: /books/cm/cm1/cm1-0
+    children:
+    - title: Core Concepts
+      url: /books/cm/cm1/cm1-1
+    - title: Key Quantities
+      url: /books/cm/cm1/cm1-2
+    - title: Newton's Law of Motion
+      url: /books/cm/cm1/cm1-3
+    - title: Euler's Law of Motion
+      url: /books/cm/cm1/cm1-4
+    - title: Conservation of Linear Momentum
+      url: /books/cm/cm1/cm1-5
+    - title: Conservation of Angular Momentum
+      url: /books/cm/cm1/cm1-6
+    - title: Conservation of Energy
+      url: /books/cm/cm1/cm1-7
+    - title: Work-Energy Principle
+      url: /books/cm/cm1/cm1-8
+
+  - title: Oscillations and Waves
+    url: #
+    children:
+    - title: Core Concepts
+      url: #
+    - title: Key Quantities
+      url: #
+
+  - title: Gravitation
+    url: #
+    children:
+    - title: Core Concepts
+      url: #
+    - title: Key Quantities
+      url: #
+
+  - title: Lagrangian Mechanics
+    url: #
+  - title: Hamiltonian Mechanics
+    url: #
