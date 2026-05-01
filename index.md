@@ -10,8 +10,8 @@ title: Physion
   </p>
 
   <div class="hero-buttons">
-    <a href="{{ '/library' | relative_url }}" class="btn-primary">Start Learning</a>
-    <a href="{{ '/about' | relative_url }}" class="btn-secondary">About</a>
+    <a href="/library" class="btn-primary">Start Learning</a>
+    <a href="/about" class="btn-secondary">About</a>
   </div>
 </section>
 
