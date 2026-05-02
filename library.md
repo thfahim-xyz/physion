@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Physion Library
-permalink: /library/
 ---
 
 # Library
