@@ -1,17 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-@media (max-width: 768px) {
-    .layout {
-        flex-direction: column;
-    }
-
-    .sidebar {
-        width: 100%;
-        min-height: auto;
-    }
-}
-
 :root {
   --bg-main: #0a0a0a;
   --bg-secondary: #121212;
@@ -128,7 +117,8 @@ a:hover {
 /* Side Bar */
 
 .sidebar {
-    width: 300px;
+    width: auto;
+    max-width: 300px;
     padding: 1rem;
     margin: 0;
 
@@ -283,4 +273,16 @@ a:hover {
   border-radius: 5px;
   border: 1px solid var(--accent);
   text-align: center;
+}
+
+@media (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: auto;
+        max-width: 100vh;
+        min-height: auto;
+    }
 }
