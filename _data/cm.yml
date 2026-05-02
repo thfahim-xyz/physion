@@ -1,25 +1,25 @@
 domain: Classical Mechanics
-domain_url: /books/cm/cm0
+domain_url: /books/cm/cm0.html
 menu:
   - title: Elementary Mechanics
-    url: /books/cm/cm1/cm1-0
+    url: /books/cm/cm1/cm1-0.html
     children:
     - title: Core Concepts
-      url: /books/cm/cm1/cm1-1
+      url: /books/cm/cm1/cm1-1.html
     - title: Key Quantities
-      url: /books/cm/cm1/cm1-2
+      url: /books/cm/cm1/cm1-2.html
     - title: Newton's Law of Motion
-      url: /books/cm/cm1/cm1-3
+      url: /books/cm/cm1/cm1-3.html
     - title: Euler's Law of Motion
-      url: /books/cm/cm1/cm1-4
+      url: /books/cm/cm1/cm1-4.html
     - title: Conservation of Linear Momentum
-      url: /books/cm/cm1/cm1-5
+      url: /books/cm/cm1/cm1-5.html
     - title: Conservation of Angular Momentum
-      url: /books/cm/cm1/cm1-6
+      url: /books/cm/cm1/cm1-6.html
     - title: Conservation of Energy
-      url: /books/cm/cm1/cm1-7
+      url: /books/cm/cm1/cm1-7.html
     - title: Work-Energy Principle
-      url: /books/cm/cm1/cm1-8
+      url: /books/cm/cm1/cm1-8.html
 
   - title: Oscillations and Waves
     url: #
