@@ -7,8 +7,8 @@
   --surface: #1a1a1a;
   --border: #262626;
 
-  --accent: #2563EB;
-  --accent-hover: #3B82F6;
+  --accent: #2563eb;
+  --accent-hover: #3b82f6;
 
   --text-primary: #ededed;
   --text-secondary: #a3a3a3;
@@ -16,7 +16,7 @@
 
   --highlight: #222222;
 
-  --purple-accent: #8B5CF6;
+  --purple-accent: #8b5cf6;
     
 }
 
@@ -273,6 +273,11 @@ a:hover {
   border-radius: 5px;
   border: 1px solid var(--accent);
   text-align: center;
+}
+
+.card a:hover {
+    color: var(--accent);
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {
