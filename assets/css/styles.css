@@ -280,6 +280,11 @@ a:hover {
     text-decoration: none;
 }
 
+.card a:hover {
+    color: var(--accent);
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .layout {
         flex-direction: column;
