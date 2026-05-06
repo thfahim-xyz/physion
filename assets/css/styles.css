@@ -275,7 +275,7 @@ a:hover {
   text-align: center;
 }
 
-.card a:hover {
+.card h3:hover {
     color: var(--accent);
     text-decoration: none;
 }
