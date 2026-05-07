@@ -5,3 +5,5 @@ book: math_methods
 ---
 
 # {{ page.title }}
+
+Content coming soon...
