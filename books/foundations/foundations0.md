@@ -5,3 +5,5 @@ book: foundations
 ---
 
 # {{ page.title }}
+
+Content coming soon...
