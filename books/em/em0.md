@@ -4,4 +4,6 @@ title: Electromagnetism
 book: em
 ---
 
-# Electromagnetism
+# {{ page.title }}
+
+Content coming soon...
