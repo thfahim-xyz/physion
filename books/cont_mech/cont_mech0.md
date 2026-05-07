@@ -4,4 +4,6 @@ title: Continuum Mechanics
 book: cont_mech
 ---
 
-# Continuum Mechanics
+# {{ page.title }}
+
+Content coming soon...
