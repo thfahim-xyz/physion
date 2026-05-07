@@ -4,4 +4,6 @@ title: Classical Mechanics
 book: cm
 ---
 
-# Classical Mechanics
+# {{ page.title }}
+
+Content coming soon...
