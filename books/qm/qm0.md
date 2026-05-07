@@ -4,4 +4,6 @@ title: Quantum Mechanics
 book: qm
 ---
 
-# Quantum Mechanics
+# {{ page.title }}
+
+Content coming soon...
