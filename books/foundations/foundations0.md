@@ -4,4 +4,4 @@ title: Foundations of Physics
 book: foundations
 ---
 
-# Foundations of Physics
+# {{ page.title }}
