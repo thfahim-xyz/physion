@@ -4,4 +4,6 @@ title: Optics
 book: optics
 ---
 
-# Optics
+# {{ page.title }}
+
+Content coming soon...
