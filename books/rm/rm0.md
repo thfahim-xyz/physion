@@ -4,4 +4,6 @@ title: Relativistic Mechanics
 book: rm
 ---
 
-# Relativistic Mechanics
+# {{ page.title }}
+
+Content coming soon...
