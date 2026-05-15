@@ -1,0 +1,35 @@
+<aside class="site__sidebar">
+    
+    {% include header.html %}
+    
+    <nav class="site__navbar">
+        
+        <hr>
+        
+        <ul>
+          <li><a href="{{ '/library' | relative_url }}">Library</a></li>
+        </ul>
+
+        <hr>
+
+        <ul>
+          {% for book in site.data.book_list.books %}
+            <li>
+              <a href="{{ book.url | relative_url }}">{{ book.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+
+        <hr>
+
+        <ul>
+          <li><a href="{{ '/about' | relative_url }}">About</a></li>
+        </ul>
+
+        <hr>
+    
+    </nav>
+    
+    {% include footer.html %}
+
+</aside>
