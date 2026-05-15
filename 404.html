@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Page Not Found</title>
+  <meta name="description" content="This page doesn't exist" />
+  <meta name="author" content="T. H. Fahim" />
+  
+  <style>
+
+    :root {
+      --bg-main: #0a0a0a;
+      --accent-hover: #3b82f6;
+      --text-primary: #ededed;
+      --text-subtle: #737373;
+      --highlight: #222222;
+      --main-font-stack: "Inter", Helvetica, Arial, sans-serif, system-ui;
+      --border-radius: 9999px;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+
+      font-family: var(--main-font-stack);
+      font-size: 1rem;
+      line-height: 1.6;
+      text-align: center;
+
+      background-color: var(--bg-main);
+      color: var(--text-primary);
+
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .btn--primary {
+      background: none;
+      border: 1px solid var(--text-subtle);
+      color: var(--text-primary);
+      padding: 0.5rem 1rem;
+      border-radius: var(--border-radius);
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    .btn--primary:hover {
+      background-color: var(--highlight);
+      color: var(--accent-hover);
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+    <h1>404</h1>
+
+    <p>This page doesn't exist</p>
+
+    <a href="{{ '/' | relative_url }}">
+      <button class="btn--primary">
+        Return Home
+      </button>
+    </a>
+
+</body>
