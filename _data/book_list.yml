@@ -1,0 +1,269 @@
+books:
+  - title: Foundations of Physics
+    url: /books/foundations/foundations
+    chapters:
+      - title: Chapter 1
+        url: #
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+        
+      - title: Chapter 2
+        url: #
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+
+  - title: Mathematical Methods for Physics
+    url: /books/math_methods/math_methods
+    chapters:
+      - title: Multivariable Calculus
+        url: /books/math_methods/math_methods0/math_methods0-0
+        sections:
+          - title: Multivariable Functions
+            url: /books/math_methods/math_methods0/math_methods0-1
+          - title: Multivariable Differentiation
+            url: /books/math_methods/math_methods0/math_methods0-2
+          - title: Multivariable Integration
+            url: /books/math_methods/math_methods0/math_methods0-3
+          - title: Fundamental Theorems of Multivariable Calculus
+            url: /books/math_methods/math_methods0/math_methods0-4
+
+      - title: Linear Algebra
+        url: #
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+      
+      - title: Tensor Algebra
+        url: #
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+      
+      - title: Tensor Calculus
+        url: #
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+
+  - title: Classical Mechanics
+    url: /books/cm/cm
+    chapters:
+      - title: Elementary Mechanics
+        url: /books/cm/cm0/cm0-0
+        sections:
+          - title: Core Concepts
+            url: /books/cm/cm0/cm0-1
+          - title: Key Quantities
+            url: /books/cm/cm0/cm0-2
+          - title: Newton’s Law of Motion
+            url: /books/cm/cm0/cm0-3
+          - title: Euler’s Law of Motion
+            url: /books/cm/cm0/cm0-4
+          - title: Conservation of Momentum
+            url: /books/cm/cm0/cm0-5
+          - title: Conservation of Energy
+            url: /books/cm/cm0/cm0-6
+          - title: Work–Energy Principle
+            url: /books/cm/cm0/cm0-7
+
+      - title: Oscillations and Waves
+        url: /books/cm/cm1/cm1-0
+        sections:
+          - title: Core Concepts
+            url: /books/cm/cm1/cm1-1
+          - title: Key Quantities
+            url: /books/cm/cm1/cm1-2
+          - title: Hooke’s Law
+            url: /books/cm/cm1/cm1-3
+          - title: Wave Equation
+            url: /books/cm/cm1/cm1-4
+          - title: Dispersion Relation
+            url: /books/cm/cm1/cm1-5
+          - title: Principle of Superposition
+            url: /books/cm/cm1/cm1-6
+          - title: Doppler Effect for Mechanical Waves
+            url: /books/cm/cm1/cm1-7
+          - title: Acoustic Wave Function
+            url: /books/cm/cm1/cm1-8
+          - title: Equations of Motion of a Harmonic Oscillator
+            url: /books/cm/cm1/cm1-9
+          - title: Spring–Mass System
+            url: /books/cm/cm1/cm1-10
+
+      - title: Gravitation
+        url: /books/cm/cm2/cm2-0
+        sections:
+          - title: Core Concepts
+            url: /books/cm/cm2/cm2-1
+          - title: Key Quantities
+            url: /books/cm/cm2/cm2-2
+          - title: Gauss’s Law for Gravity
+            url: /books/cm/cm2/cm2-3
+          - title: Poisson’s Equation for Gravity
+            url: /books/cm/cm2/cm2-4
+          - title: Shell Theorem
+            url: /books/cm/cm2/cm2-5
+          - title: Kepler’s Law of Periods
+            url: /books/cm/cm2/cm2-6
+          - title: Work and Energy in a Gravitational Field
+            url: /books/cm/cm2/cm2-7
+          - title: Gravitation of a Uniform Solid Sphere
+            url: /books/cm/cm2/cm2-8
+          - title: Gravitational Field for a Rotating Sphere
+            url: /books/cm/cm2/cm2-9
+          - title: Orbital Systems
+            url: /books/cm/cm2/cm2-10
+
+      - title: Lagrangian Mechanics
+        url: /books/cm/cm3/cm3-0
+        sections:
+          - title: Section 1
+            url: /books/cm/cm3/cm3-1
+
+      - title: Hamiltonian Mechanics
+        url: /books/cm/cm4/cm4-0
+        sections:
+          - title: Section 1
+            url: /books/cm/cm4/cm4-1
+
+  - title: Continuum Mechanics
+    url: /books/cont_mech/cont_mech
+    chapters:
+      - title: Chapter 1
+        url: #
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+
+      - title: Chapter 2
+        url: #
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+
+  - title: Thermodynamics and Statistical Mechanics
+    url: /books/tdsm/tdsm
+    chapters:
+      - title: Thermodynamics
+        url: /books/tdsm/tdsm0/tdsm0-0
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+
+      - title: Statistical Mechanics
+        url: /books/tdsm/tdsm1/tdsm1-0
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+
+  - title: Electromagnetism
+    url: /books/em/em
+    chapters:
+      - title: Electrostatics
+        url: /books/em/em0/em0-0
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+
+      - title: Magnetostatics
+        url: /books/em/em1/em1-0
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+      
+      - title: Electrodynamics
+        url: /books/em/em2/em2-0
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+      
+      - title: Electrical Network Analysis
+        url: /books/em/em3/em3-0
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+
+  - title: Optics
+    url: /books/optics/optics
+    chapters:
+      - title: Geometrical Optics
+        url: /books/optics/optics0/optics0-0
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+
+      - title: Physical Optics
+        url: /books/optics/optics1/optics1-0
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+
+  - title: Relativity
+    url: /books/rel/rel
+    chapters:
+      - title: Chapter 1
+        url: #
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+
+      - title: Chapter 2
+        url: #
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+
+  - title: Quantum Mechanics
+    url: /books/qm/qm
+    chapters:
+      - title: Chapter 1
+        url: #
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
+
+      - title: Chapter 2
+        url: #
+        sections:
+          - title: Section 1
+            url: #
+          - title: Section 2
+            url: #
