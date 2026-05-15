@@ -5,6 +5,8 @@ layout: default
 
 # {{ page.title }}
 
+Mathematical methods for physics provides the mathematical language and techniques used to formulate, analyze, and solve physical problems. It includes topics such as calculus, differential equations, linear algebra, vector calculus, complex analysis, probability, tensors, and Fourier methods, along with numerical and approximation techniques. Rather than being a separate branch of physics, it serves as the essential toolkit through which physical theories are expressed and applied. Mastery of these methods enables the quantitative study of systems across all areas of physics, from classical mechanics and electromagnetism to quantum theory and relativity.
+
 ## Table of Contents
 
 <ul>

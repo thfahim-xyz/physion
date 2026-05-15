@@ -5,6 +5,8 @@ layout: default
 
 # {{ page.title }}
 
+Relativity is the theory that describes the nature of space, time, motion, and gravity at high speeds and large scales. Developed primarily by Albert Einstein, it consists of special relativity and general relativity. Special relativity unifies space and time into spacetime and shows that measurements of length, time, and simultaneity depend on the observer’s motion. General relativity extends these ideas to gravity, describing it not as a force but as the curvature of spacetime caused by mass and energy. Relativity transformed our understanding of the universe and underlies modern cosmology, astrophysics, and gravitational physics.
+
 ## Table of Contents
 
 <ul>

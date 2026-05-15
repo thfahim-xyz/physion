@@ -5,6 +5,8 @@ layout: default
 
 # {{ page.title }}
 
+Quantum mechanics is the fundamental theory that describes the behavior of matter and radiation at microscopic scales. Unlike classical physics, it reveals a world governed by probabilities, wave-particle duality, quantization, and intrinsic uncertainty. Quantum mechanics explains the structure of atoms, the behavior of electrons, the nature of chemical bonds, and the operation of modern technologies such as lasers, semiconductors, and quantum computers. It is one of the most successful and experimentally verified theories in the history of science.
+
 ## Table of Contents
 
 <ul>

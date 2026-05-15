@@ -5,6 +5,8 @@ layout: default
 
 # {{ page.title }}
 
+Continuum mechanics is the branch of physics that studies the behavior of materials treated as continuous media rather than discrete collections of particles. It describes how solids and fluids deform, flow, and respond to forces using concepts such as stress, strain, pressure, and viscosity. The field encompasses elasticity, fluid mechanics, plasticity, and hydrodynamics, and provides the theoretical foundation for engineering, materials science, geophysics, and biomechanics. By modeling matter as a continuum, it enables the analysis of complex physical systems across a wide range of scales.
+
 ## Table of Contents
 
 <ul>

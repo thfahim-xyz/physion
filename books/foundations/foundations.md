@@ -5,6 +5,8 @@ layout: default
 
 # {{ page.title }}
 
+Foundations of physics explores the fundamental concepts, principles, assumptions, and mathematical structures that underlie physical theory. It examines the nature of space, time, matter, energy, causality, symmetry, measurement, and physical law, while also addressing the conceptual and philosophical questions that arise in modern physics. By studying the logical and experimental basis of physical theories, this field seeks to clarify how physics describes reality and how different theories connect to one another. Foundations of physics lies at the intersection of physics, mathematics, and philosophy, providing deeper insight into the structure and meaning of the physical universe.
+
 ## Table of Contents
 
 <ul>

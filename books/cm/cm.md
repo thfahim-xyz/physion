@@ -5,7 +5,7 @@ layout: default
 
 # {{ page.title }}
 
-Classical mechanics is the branch of physics that studies motion, forces, and the laws governing the behavior of bodies on everyday scales. It provides the foundation for understanding how objects move through space and time, from falling stones and orbiting planets to rotating wheels and vibrating springs. Built upon the ideas of Newton, Lagrange, Hamilton, and many others, it combines physical intuition with mathematical precision to describe the natural world. Though superseded by relativity and quantum mechanics in extreme regimes, classical mechanics remains extraordinarily accurate for most familiar phenomena and continues to serve as one of the central pillars of physics.
+Classical mechanics is the branch of physics that studies the motion of macroscopic objects and the forces that govern them. It describes everything from falling apples and planetary orbits to machines, fluids, and rigid bodies. Built on the ideas of motion, force, energy, and momentum, classical mechanics provides the mathematical framework for understanding how physical systems evolve in space and time. Despite being superseded by relativity and quantum mechanics in extreme regimes, it remains extraordinarily accurate for most everyday phenomena and forms one of the foundational pillars of physics.
 
 ## Table of Contents
 
