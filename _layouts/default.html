@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}" />
+  <meta name="author" content="T. H. Fahim" />
+
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+
+  <script defer src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+
+<body>
+
+  <div class="site__layout">
+    
+    {% include sidebar.html %}
+    
+    <main class="site__content">
+      {{ content }}
+    </main>
+
+  </div>
+  
+</body>
+
+</html>
