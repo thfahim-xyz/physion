@@ -252,16 +252,16 @@ books:
   - title: Quantum Mechanics
     url: /books/qm/qm
     chapters:
-      - title: Chapter 1
-        url: #
+      - title: Formalism of Quantum Mechanics
+        url: /books/qm/qm0/qm0-0
         sections:
-          - title: Section 1
-            url: #
+          - title: Foundational Concepts
+            url: /books/qm/qm0/qm0-1
           - title: Section 2
-            url: #
+            url: /books/qm/qm0/qm0-1
 
-      - title: Chapter 2
-        url: #
+      - title: Quantum Phenomena
+        url: /books/qm/qm0/qm1-0
         sections:
           - title: Section 1
             url: #

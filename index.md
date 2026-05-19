@@ -4,10 +4,10 @@ title: Physion
 ---
 
 <h1 class="site__wordmark" id="hero">Physion</h1>
-<p id="hero">Welcome to Physion.</p>
+<p id="hero">Learning physics as a way of understanding reality.</p>
 
 <div id="hero">
-  <a href="{{ '/about' | relative_url }}" class="btn--primary">About</a>
+  <a href="{{ '/library' | relative_url }}" class="btn--primary">Explore</a>
 </div>
 
 # Library

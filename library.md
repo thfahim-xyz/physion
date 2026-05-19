@@ -5,7 +5,9 @@ title: Physion Library
 
 <h1>Library</h1>
 
-<p>Welcome to Physion Library.</p>
+<p>“The only thing that you absolutely have to know, is the location of the library.”</p>
+
+<p>― Albert Einstein</p>
 
 {% for book in site.data.book_list.books %}
 
