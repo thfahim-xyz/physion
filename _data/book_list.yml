@@ -257,8 +257,18 @@ books:
         sections:
           - title: Foundational Concepts
             url: /books/qm/qm0/qm0-1
-          - title: Section 2
-            url: /books/qm/qm0/qm0-1
+          - title: Quantum Operators
+            url: /books/qm/qm0/qm0-2
+          - title: Schrödinger Equation
+            url: /books/qm/qm0/qm0-3
+          - title: Heisenberg Equation of Motion
+            url: /books/qm/qm0/qm0-4
+          - title: Ehrenfest Theorem
+            url: /books/qm/qm0/qm0-5
+          - title: Canonical Commutation Relation
+            url: /books/qm/qm0/qm0-6
+          - title: Uncertainty Principle
+            url: /books/qm/qm0/qm0-7
 
       - title: Quantum Phenomena
         url: /books/qm/qm0/qm1-0
