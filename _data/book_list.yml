@@ -271,9 +271,11 @@ books:
             url: /books/qm/qm0/qm0-7
 
       - title: Quantum Phenomena
-        url: /books/qm/qm0/qm1-0
+        url: /books/qm/qm1/qm1-0
         sections:
-          - title: Section 1
-            url: #
-          - title: Section 2
-            url: #
+          - title: Quantization of Energy
+            url: /books/qm/qm1/qm1-1
+          - title: Wave–Particle Duality
+            url: /books/qm/qm1/qm1-2
+          - title: Quantum Mechanical Model of the Atom
+            url: /books/qm/qm1/qm1-3
