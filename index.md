@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Physion
+layout: default
 ---
 
 <h1 class="site__wordmark" id="hero">Physion</h1>

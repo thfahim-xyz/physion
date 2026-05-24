@@ -1,6 +1,6 @@
 ---
+title: Library
 layout: default
-title: Physion Library
 ---
 
 <h1>Library</h1>

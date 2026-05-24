@@ -1,6 +1,6 @@
 ---
-layout: default
 title: About Physion
+layout: default
 ---
 
 # About This Site
@@ -12,8 +12,6 @@ Physion is a personal project dedicated to understanding physics deeply; not jus
 I am a student with a strong interest in physics, mathematics, computer science, and philosophy. I enjoy exploring how the world works at both a fundamental and logical level.
 
 I like learning through clarity and reasoning rather than rote memorization. Physics, for me, is not just a subject, it's a way of thinking about reality.
-
-I am currently pursuing a B.S. in Physics at the University of Dhaka.
 
 # Contact
 
