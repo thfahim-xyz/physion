@@ -16,7 +16,7 @@
 
     --text-primary: #ededed;
     --text-secondary: #a3a3a3;
-    --text-subtle: #737373;
+    --text-muted: #737373;
     --highlight: #222222;
 
     --main-font-stack: "Inter", Helvetica, Arial, sans-serif, system-ui;
@@ -118,20 +118,23 @@ mjx-container[display="true"] {
 h1, h2, h3 {
     padding-top: 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: thin solid var(--text-secondary);
     margin-bottom: 1rem;
-
     line-height: 1.2;
     color: var(--text-primary);
 }
 
-h1 {font-size: 2rem;}
+h1 {
+    font-size: 2rem;
+    border-bottom: 1px solid var(--text-secondary);
+}
 
-h2 {font-size: 1.5rem;}
+h2 {
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--text-secondary);
+}
 
 h3 {
     font-size: 1.25rem;
-    border-bottom: none;
 }
 
 /* ===== LISTS ===== */
@@ -242,7 +245,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 
 .btn--primary {
     background: none;
-    border: 1px solid var(--text-subtle);
+    border: 1px solid var(--text-muted);
     color: var(--text-primary);
     padding: 0.5rem 1rem;
     border-radius: var(--border-radius);
@@ -261,7 +264,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 
 .menu-toggle {
   background: none;
-  border: 1px solid var(--text-subtle);
+  border: 1px solid var(--text-muted);
   color: var(--text-primary);
   padding: 0.5rem 1rem;
   border-radius: var(--border-radius);
