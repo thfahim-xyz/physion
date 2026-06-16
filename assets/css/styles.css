@@ -226,7 +226,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 }
 
 .site__navbar a:hover {
-    color: var(--accent-hover);
+    color: var(--accent);
 }
 
 /* ===== HORIZONTAL RULE ===== */
