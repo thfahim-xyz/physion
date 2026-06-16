@@ -5,7 +5,7 @@ layout: default
 
 <div class="site__wordmark" id="hero">Physion</div>
 <p id="hero">Learning physics as a way of understanding reality.</p>
-<br>
+
 <div id="hero">
   <a href="{{ '/library' | relative_url }}" class="btn--primary">Explore</a>
 </div>
