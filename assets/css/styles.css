@@ -118,21 +118,32 @@ h1, h2, h3 {
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
     line-height: 1.2;
-    color: var(--text-primary);
+    font-weight: 600;
 }
 
 h1 {
+    padding: 9px 20px;
     font-size: 2rem;
-    border-bottom: 2px solid var(--text-primary);
+
+    color: var(--text-primary);
+    border-left: 3px solid var(--text-primary);
+    background: linear-gradient(to right, rgba(50, 50, 50, 0.25), transparent);
 }
 
 h2 {
+    padding: 9px 20px;
     font-size: 1.5rem;
-    border-bottom: 1px solid var(--border);
+
+    color: var(--accent);
+    border-left: 3px solid var(--accent);
+    background: linear-gradient(to right, rgba(59, 130, 246, 0.06), transparent);
 }
 
 h3 {
     font-size: 1.25rem;
+    border-bottom: 1px solid var(--border);
+
+    color: var(--text-primary);
 }
 
 /* ===== LISTS ===== */
@@ -184,12 +195,12 @@ th {
 
 a {
     transition: color 0.2s ease;
-    color: var(--accent);
+    color: #8ab4f8;
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--accent-hover);
+    color: #aecbfa;
     text-decoration: underline;
 }
 
@@ -199,7 +210,7 @@ h1 a, h2 a, h3 a {
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover {
-    color: var(--accent);
+    color: var(--accent-hover);
     text-decoration: none;
 }
 
