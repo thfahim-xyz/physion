@@ -1,6 +1,5 @@
 /* ===== IMPORTS ===== */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 /* ===== VARIABLES ===== */
@@ -18,7 +17,7 @@
     --text-muted: #737373;
     --highlight: #222222;
 
-    --main-font-stack: "Inter", Helvetica, Arial, sans-serif, system-ui;
+    --main-font-stack: Arial, sans-serif, system-ui;
 
     --border-radius: 999px;
     
@@ -154,9 +153,8 @@ ul ul {
 
 .site__navbar li {
     overflow: hidden;
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.7rem;
     line-height: 1.4;
-    font-weight: 500;
 }
 
 /* ===== TABLES ===== */
@@ -213,6 +211,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 .site__navbar a {
     color: inherit;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .site__navbar a:hover {
