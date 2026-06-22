@@ -134,8 +134,8 @@ h2 {
     padding: 9px 20px;
     font-size: 1.5rem;
 
-    color: var(--accent);
-    border-left: 3px solid var(--accent);
+    color: #93c5fd;
+    border-left: 3px solid #93c5fd;
     background: linear-gradient(to right, rgba(59, 130, 246, 0.06), transparent);
 }
 
@@ -195,12 +195,12 @@ th {
 
 a {
     transition: color 0.2s ease;
-    color: #8ab4f8;
+    color: var(--accent);
     text-decoration: none;
 }
 
 a:hover {
-    color: #aecbfa;
+    color: var(--accent-hover);
     text-decoration: underline;
 }
 
@@ -210,7 +210,7 @@ h1 a, h2 a, h3 a {
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover {
-    color: var(--accent-hover);
+    color: var(--accent);
     text-decoration: none;
 }
 
