@@ -5,6 +5,8 @@ window.MathJax = {
     displayMath: [['$$', '$$'], ['\\[', '\\]']]
   },
   chtml: {
+    scale: 1.1,
+    matchFontHeight: false,
     displayAlign: 'left',
     displayIndent: '1em'
   }
