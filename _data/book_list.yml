@@ -194,17 +194,17 @@ books:
       - title: Electrodynamics
         url: /books/em/em05/em05
         sections:
-          - title: Section 1
+          - title: Maxwell's Equations
             url: /books/em/em05/01
-          - title: Section 2
+          - title: Solutions of Maxwell's Equations
             url: /books/em/em05/02
 
       - title: Electrical Network Analysis
         url: /books/em/em06/em06
         sections:
-          - title: Maxwell's Equations
+          - title: Section 1
             url: /books/em/em06/01
-          - title: Solutions of Maxwell's Equations
+          - title: Section 2
             url: /books/em/em06/02
 
   - title: Optics
