@@ -202,9 +202,9 @@ books:
       - title: Electrical Network Analysis
         url: /books/em/em06/em06
         sections:
-          - title: Section 1
+          - title: Maxwell's Equations
             url: /books/em/em06/01
-          - title: Section 2
+          - title: Solutions of Maxwell's Equations
             url: /books/em/em06/02
 
   - title: Optics
