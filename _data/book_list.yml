@@ -162,9 +162,9 @@ books:
       - title: Electrostatics
         url: /books/em/em01/em01
         sections:
-          - title: Section 1
+          - title: Electric Field
             url: /books/em/em01/01
-          - title: Section 2
+          - title: Electric Potential
             url: /books/em/em01/02
 
       - title: Electrostatics in Matter
