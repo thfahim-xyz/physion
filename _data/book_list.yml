@@ -56,67 +56,63 @@ books:
   - title: Classical Mechanics
     url: /books/cm/cm
     chapters:
-      - title: Foundations
+      - title: Kinematics
         url: /books/cm/cm01/cm01
         sections:
-          - title: Fundamental Concepts
-            url: /books/cm/cm01/01
-
-      - title: Kinematics
-        url: /books/cm/cm02/cm02
-        sections:
           - title: Translational Kinematic Quantities
-            url: /books/cm/cm02/01
+            url: /books/cm/cm01/01
           - title: Rotational Kinematic Quantities
-            url: /books/cm/cm02/02
+            url: /books/cm/cm01/02
           - title: Motion in One Dimension
-            url: /books/cm/cm02/03
+            url: /books/cm/cm01/03
           - title: Motion in Two and Three Dimensions
-            url: /books/cm/cm02/04
+            url: /books/cm/cm01/04
           - title: Relative Motion
-            url: /books/cm/cm02/05
+            url: /books/cm/cm01/05
 
       - title: Newtonian Dynamics
-        url: /books/cm/cm03/cm03
+        url: /books/cm/cm02/cm02
         sections:
-          - title: Core Concepts
-            url: /books/cm/cm2/cm2-1
-          - title: Key Quantities
-            url: /books/cm/cm2/cm2-2
-          - title: Gauss's Law for Gravity
-            url: /books/cm/cm2/cm2-3
-          - title: Poisson's Equation for Gravity
-            url: /books/cm/cm2/cm2-4
-          - title: Shell Theorem
-            url: /books/cm/cm2/cm2-5
-          - title: Kepler's Law of Periods
-            url: /books/cm/cm2/cm2-6
-          - title: Work and Energy in a Gravitational Field
-            url: /books/cm/cm2/cm2-7
-          - title: Gravitation of a Uniform Solid Sphere
-            url: /books/cm/cm2/cm2-8
-          - title: Gravitational Field for a Rotating Sphere
-            url: /books/cm/cm2/cm2-9
-          - title: Orbital Systems
-            url: /books/cm/cm2/cm2-10
+          - title: Translational Dynamic Quantities
+            url: /books/cm/cm02/01
+          - title: Rotational Dynamic Quantities
+            url: /books/cm/cm02/02
+          - title: Newton's Laws of Motion
+            url: /books/cm/cm02/03
+          - title: Applications of Newton's Laws
+            url: /books/cm/cm02/04
+          - title: Newton's Laws in Non-Inertial Reference Frames
+            url: /books/cm/cm02/05
 
       - title: Work and Energy
+        url: /books/cm/cm03/cm03
+        sections:
+          - title: Energy Quantities
+            url: /books/cm/cm03/01
+
+      - title: Systems of Particles
         url: /books/cm/cm04/cm04
         sections:
           - title: Section 1
-            url: /books/cm/cm3/cm3-1
-
-      - title: Systems of Particles
+            url: /books/cm/cm04/01
+      
+      - title: Rigid Body Dynamics
         url: /books/cm/cm05/cm05
         sections:
           - title: Section 1
-            url: /books/cm/cm4/cm4-1
-      
-      - title: Rigid Body Dynamics
+            url: /books/cm/cm05/01
+
+      - title: Central Force Motion
         url: /books/cm/cm06/cm06
         sections:
           - title: Section 1
-            url: /books/cm/cm4/cm4-1
+            url: /books/cm/cm06/01
+
+      - title: Oscillations and Waves
+        url: /books/cm/cm07/cm07
+        sections:
+          - title: Section 1
+            url: /books/cm/cm07/01
 
   - title: Continuum Mechanics
     url: /books/cont_mech/cont_mech
@@ -126,15 +122,11 @@ books:
         sections:
           - title: Section 1
             url: #
-          - title: Section 2
-            url: #
 
       - title: Chapter 2
         url: #
         sections:
           - title: Section 1
-            url: #
-          - title: Section 2
             url: #
 
   - title: Thermodynamics and Statistical Mechanics
@@ -143,17 +135,25 @@ books:
       - title: Thermodynamics
         url: /books/tdsm/tdsm01/tdsm01
         sections:
-          - title: Section 1
-            url: #
-          - title: Section 2
-            url: #
+          - title: Fundamental Concepts of Thermodynamics
+            url: /books/tdsm/tdsm01/01
+          - title: Laws of Thermodynamics
+            url: /books/tdsm/tdsm01/02
+          - title: Thermodynamic Quantities
+            url: /books/tdsm/tdsm01/03
+          - title: Thermodynamic Relations
+            url: /books/tdsm/tdsm01/04
+          - title: Ideal Gases
+            url: /books/tdsm/tdsm01/05
+          - title: Heat Engines and Heat Pumps
+            url: /books/tdsm/tdsm01/06
+          - title: Thermal Conduction
+            url: /books/tdsm/tdsm01/07
 
       - title: Statistical Mechanics
         url: /books/tdsm/tdsm02/tdsm02
         sections:
           - title: Section 1
-            url: #
-          - title: Section 2
             url: #
 
   - title: Electromagnetism
@@ -204,8 +204,6 @@ books:
         sections:
           - title: Section 1
             url: /books/em/em06/01
-          - title: Section 2
-            url: /books/em/em06/02
 
   - title: Optics
     url: /books/optics/optics
