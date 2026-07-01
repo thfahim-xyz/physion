@@ -243,6 +243,35 @@ hr {
     border-top: 1px solid var(--border);
 }
 
+/* ===== QUOTES ===== */
+
+blockquote {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid var(--accent);
+    border-radius: 0px;
+
+    text-align: center;
+    font-style: italic;
+    overflow-wrap: break-word;
+}
+
+blockquote p {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+blockquote cite {
+    display: block;             /* Put author on a new line */
+    margin-top: 1.5rem;
+    font-style: normal;
+    font-size: 1rem;
+    
+    color: var(--text-primary);
+}
+
 /* ===== SITE WORDMARK ===== */
 
 .site__wordmark {

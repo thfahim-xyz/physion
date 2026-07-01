@@ -5,9 +5,13 @@ layout: default
 
 <h1>Library</h1>
 
-<p>“The only thing that you absolutely have to know, is the location of the library.”</p>
+<blockquote>
+    
+    <p>“The only thing that you absolutely have to know, is the location of the library.”</p>
 
-<p>― Albert Einstein</p>
+    <cite>― Albert Einstein</cite>
+
+</blockquote>
 
 {% for book in site.data.book_list.books %}
 
