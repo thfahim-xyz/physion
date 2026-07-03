@@ -329,8 +329,8 @@ blockquote cite {
 /* ===== TEXTBOX ===== */
 
 .box {
-  border: 1.5px solid var(--text-secondary);
-  border-radius: 10px;
+  border: 1px solid var(--text-muted);
+  border-radius: 7px;
   padding: 14px 16px;
   margin: 16px 0;
 }
@@ -338,8 +338,10 @@ blockquote cite {
 .box__title {
   text-align: center;
   font-weight: 600;
-  font-size: 1.05em;
+  font-size: 1.3rem;
+  padding-bottom: 10px;
   margin-bottom: 10px;
+  border-bottom: 1px solid var(--text-muted);
 }
 
 /* ===== RESPONSIVENESS ===== */
