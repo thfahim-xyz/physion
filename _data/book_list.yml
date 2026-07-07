@@ -111,8 +111,10 @@ books:
       - title: Oscillations and Waves
         url: /books/cm/cm07/cm07
         sections:
-          - title: Section 1
+          - title: Oscillations
             url: /books/cm/cm07/01
+          - title: Waves
+            url: /books/cm/cm07/02
 
   - title: Continuum Mechanics
     url: /books/cont_mech/cont_mech
