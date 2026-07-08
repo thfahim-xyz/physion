@@ -56,7 +56,7 @@ books:
   - title: Classical Mechanics
     url: /books/cm/cm
     chapters:
-      - title: Kinematics
+      - title: Particle Kinematics
         url: /books/cm/cm01/cm01
         sections:
           - title: Translational Kinematic Quantities
@@ -70,66 +70,66 @@ books:
           - title: Relative Motion
             url: /books/cm/cm01/05
 
-      - title: Newtonian Dynamics
+      - title: Particle Dynamics
         url: /books/cm/cm02/cm02
         sections:
           - title: Translational Dynamic Quantities
             url: /books/cm/cm02/01
           - title: Rotational Dynamic Quantities
             url: /books/cm/cm02/02
-          - title: Newton's Laws of Motion
+          - title: Energy Quantities
             url: /books/cm/cm02/03
-          - title: Applications of Newton's Laws
+          - title: Principles of Dynamics
             url: /books/cm/cm02/04
-          - title: Newton's Laws in Non-Inertial Reference Frames
+          - title: Applications of Newton's Laws
             url: /books/cm/cm02/05
 
-      - title: Work and Energy
+      - title: Systems of Particles
         url: /books/cm/cm03/cm03
         sections:
-          - title: Energy Quantities
+          - title: Section 1
             url: /books/cm/cm03/01
-
-      - title: Systems of Particles
+      
+      - title: Rigid Body Dynamics
         url: /books/cm/cm04/cm04
         sections:
           - title: Section 1
             url: /books/cm/cm04/01
-      
-      - title: Rigid Body Dynamics
+
+      - title: Central Force Motion
         url: /books/cm/cm05/cm05
         sections:
           - title: Section 1
             url: /books/cm/cm05/01
 
-      - title: Central Force Motion
+      - title: Oscillations and Waves
         url: /books/cm/cm06/cm06
         sections:
-          - title: Section 1
-            url: /books/cm/cm06/01
-
-      - title: Oscillations and Waves
-        url: /books/cm/cm07/cm07
-        sections:
           - title: Oscillations
-            url: /books/cm/cm07/01
+            url: /books/cm/cm06/01
           - title: Waves
-            url: /books/cm/cm07/02
+            url: /books/cm/cm06/02
 
   - title: Continuum Mechanics
     url: /books/cont_mech/cont_mech
     chapters:
-      - title: Chapter 1
-        url: #
+      - title: Solid Mechanics
+        url: /books/cont_mech01/cont_mech01
         sections:
           - title: Section 1
-            url: #
+            url: /books/cont_mech01/01
 
-      - title: Chapter 2
-        url: #
+      - title: Fluid Mechanics
+        url: /books/cont_mech02/cont_mech02
         sections:
-          - title: Section 1
-            url: #
+          - title: Fluid Statics
+            url: /books/cont_mech02/01
+          - title: Fluid Kinematics
+            url: /books/cont_mech02/02
+          - title: Fluid Dynamics
+            url: /books/cont_mech02/03
+          - title: Interfacial Phenomena
+            url: /books/cont_mech02/04
 
   - title: Thermodynamics and Statistical Mechanics
     url: /books/tdsm/tdsm
@@ -156,7 +156,7 @@ books:
         url: /books/tdsm/tdsm02/tdsm02
         sections:
           - title: Section 1
-            url: #
+            url: /books/tdsm/tdsm02/01
 
   - title: Electromagnetism
     url: /books/em/em
@@ -174,15 +174,13 @@ books:
         sections:
           - title: Section 1
             url: /books/em/em02/01
-          - title: Section 2
-            url: /books/em/em02/02
       
       - title: Magnetostatics
         url: /books/em/em03/em03
         sections:
-          - title: Section 1
+          - title: Magnetic Field
             url: /books/em/em03/01
-          - title: Section 2
+          - title: Magnetic Potential
             url: /books/em/em03/02
       
       - title: Magnetostatics in Matter
@@ -190,8 +188,6 @@ books:
         sections:
           - title: Section 1
             url: /books/em/em04/01
-          - title: Section 2
-            url: /books/em/em04/02
 
       - title: Electrodynamics
         url: /books/em/em05/em05
@@ -201,16 +197,20 @@ books:
           - title: Solutions of Maxwell's Equations
             url: /books/em/em05/02
 
-      - title: Electrical Network Analysis
+      - title: Electrical Circuit Analysis
         url: /books/em/em06/em06
         sections:
-          - title: Section 1
+          - title: Fundamentals of Circuit Analysis
             url: /books/em/em06/01
+          - title: Circuit Elements
+            url: /books/em/em06/02
+          - title: Circuit Analysis
+            url: /books/em/em06/03
 
   - title: Optics
     url: /books/optics/optics
     chapters:
-      - title: Geometrical Optics
+      - title: Geometric Optics
         url: /books/optics/optics01/optics01
         sections:
           - title: Section 1
@@ -218,6 +218,18 @@ books:
 
       - title: Physical Optics
         url: /books/optics/optics02/optics02
+        sections:
+          - title: Section 1
+            url: #
+
+      - title: Radiometry
+        url: /books/optics/optics03/optics03
+        sections:
+          - title: Section 1
+            url: #
+
+      - title: Photometry
+        url: /books/optics/optics03/optics03
         sections:
           - title: Section 1
             url: #
@@ -240,30 +252,29 @@ books:
   - title: Quantum Mechanics
     url: /books/qm/qm
     chapters:
-      - title: Formalism of Quantum Mechanics
+      - title: Quantum Phenomena
         url: /books/qm/qm01/qm01
         sections:
-          - title: Foundational Concepts
+          - title: Quantization of Energy
             url: /books/qm/qm01/01
-          - title: Quantum Operators
+          - title: Wave-Particle Duality
             url: /books/qm/qm01/02
-          - title: Schrödinger Equation
+          - title: Quantum Mechanical Model of the Atom
             url: /books/qm/qm01/03
-          - title: Heisenberg Equation of Motion
-            url: /books/qm/qm01/04
-          - title: Ehrenfest Theorem
-            url: /books/qm/qm01/05
-          - title: Canonical Commutation Relation
-            url: /books/qm/qm01/06
-          - title: Uncertainty Principle
-            url: /books/qm/qm01/07
 
-      - title: Quantum Phenomena
+      - title: Formalism of Quantum Mechanics
         url: /books/qm/qm02/qm02
         sections:
-          - title: Quantization of Energy
+          - title: Fundamentals of Quantum Mechanics
             url: /books/qm/qm02/01
-          - title: Wave-Particle Duality
+          - title: Quantum Operators
             url: /books/qm/qm02/02
-          - title: Quantum Mechanical Model of the Atom
+          - title: Principles of Quantum Mechanics
             url: /books/qm/qm02/03
+
+      - title: Quantum Mechanical Systems
+        url: /books/qm/qm03/qm03
+        sections:
+          - title: Section 1
+            url: /books/qm/qm03/01
+

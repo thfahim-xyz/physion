@@ -1,8 +1,8 @@
 ---
-title: Particle Kinematics
+title: Solid Mechanics
 layout: default
 ---
 
-# Particle Kinematics
+# Solid Mechanics
 
 Content coming soon...

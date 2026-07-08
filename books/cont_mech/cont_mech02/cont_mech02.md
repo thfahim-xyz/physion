@@ -1,8 +1,8 @@
 ---
-title: Particle Kinematics
+title: Fluid Mechanics
 layout: default
 ---
 
-# Particle Kinematics
+# Fluid Mechanics
 
 Content coming soon...
