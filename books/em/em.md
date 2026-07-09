@@ -6,7 +6,7 @@ layout: default
 # Electromagnetism
 
 <figure class="figure--center">
-    <img src="/assets/images/em.jpg"
+    <img src="{{ '/assets/images/em.jpg' | relative_url }}"
          alt="Lightning">
 
     <figcaption>

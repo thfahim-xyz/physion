@@ -6,7 +6,7 @@ layout: default
 # Quantum Mechanics
 
 <figure class="figure--center">
-    <img src="/assets/images/qm.jpg"
+    <img src="{{ '/assets/images/qm.jpg' | relative_url }}"
          alt="Northern lights">
 
     <figcaption>

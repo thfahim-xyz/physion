@@ -6,7 +6,7 @@ layout: default
 # Relativity
 
 <figure class="figure--center">
-    <img src="/assets/images/rel.jpg"
+    <img src="{{ '/assets/images/rel.jpg' | relative_url }}"
          alt="Black hole">
 
     <figcaption>

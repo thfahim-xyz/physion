@@ -6,7 +6,7 @@ layout: default
 # Foundations of Physics
 
 <figure class="figure--center">
-    <img src="/assets/images/foundations.jpg"
+    <img src="{{ '/assets/images/foundations.jpg' | relative_url }}"
          alt="Milky Way">
 
     <figcaption>

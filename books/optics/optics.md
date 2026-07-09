@@ -6,7 +6,7 @@ layout: default
 # Optics
 
 <figure class="figure--center">
-    <img src="/assets/images/optics.jpg"
+    <img src="{{ '/assets/images/optics.jpg' | relative_url }}"
          alt="Fairy lights">
 
     <figcaption>

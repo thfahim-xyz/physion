@@ -6,7 +6,7 @@ layout: default
 # Thermodynamics and Statistical Mechanics
 
 <figure class="figure--center">
-    <img src="/assets/images/tdsm.jpg"
+    <img src="{{ '/assets/images/tdsm.jpg' | relative_url }}"
          alt="Fire">
 
     <figcaption>

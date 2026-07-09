@@ -6,7 +6,7 @@ layout: default
 # Continuum Mechanics
 
 <figure class="figure--center">
-    <img src="/assets/images/cont_mech.jpg"
+    <img src="{{ '/assets/images/cont_mech.jpg' | relative_url }}"
          alt="Ocean waves">
 
     <figcaption>
