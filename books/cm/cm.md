@@ -6,7 +6,7 @@ layout: default
 # Classical Mechanics
 
 <figure class="figure--center">
-    <img src="/assets/images/cm.jpg"
+    <img src="{{ '/assets/images/cm.jpg' | relative_url }}"
          alt="Newton's cradle">
 
     <figcaption>
