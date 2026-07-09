@@ -5,6 +5,15 @@ layout: default
 
 # Thermodynamics and Statistical Mechanics
 
+<figure class="figure--center">
+    <img src="/assets/images/tdsm.jpg"
+         alt="Fire">
+
+    <figcaption>
+        Fire is a familiar example of energy conversion through chemical reactions, involving heat transfer, temperature, and changes in the internal energy of matter.
+    </figcaption>
+</figure>
+
 Thermodynamics studies heat, work, energy, and the laws governing their transformation in physical systems. It introduces concepts such as temperature, entropy, equilibrium, and the conservation of energy, providing powerful principles that apply to gases, engines, chemical reactions, and even black holes. Statistical mechanics complements thermodynamics by explaining macroscopic behavior in terms of the microscopic motion of atoms and molecules. Together, these fields connect the microscopic and macroscopic worlds and form the foundation of much of modern physics, chemistry, and materials science.
 
 ## Table of Contents

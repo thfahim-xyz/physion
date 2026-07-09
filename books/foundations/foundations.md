@@ -5,6 +5,15 @@ layout: default
 
 # Foundations of Physics
 
+<figure class="figure--center">
+    <img src="/assets/images/foundations.jpg"
+         alt="Milky Way">
+
+    <figcaption>
+        The Milky Way stretches across the night sky as a reminder of the vast and diverse phenomena that physics seeks to understand, from everyday motion to the evolution of the universe.
+    </figcaption>
+</figure>
+
 Foundations of physics explores the fundamental concepts, principles, assumptions, and mathematical structures that underlie physical theory. It examines the nature of space, time, matter, energy, causality, symmetry, measurement, and physical law, while also addressing the conceptual and philosophical questions that arise in modern physics. By studying the logical and experimental basis of physical theories, this field seeks to clarify how physics describes reality and how different theories connect to one another. Foundations of physics lies at the intersection of physics, mathematics, and philosophy, providing deeper insight into the structure and meaning of the physical universe.
 
 ## Table of Contents

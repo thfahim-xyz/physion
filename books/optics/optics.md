@@ -5,6 +5,15 @@ layout: default
 
 # Optics
 
+<figure class="figure--center">
+    <img src="/assets/images/optics.jpg"
+         alt="Fairy lights">
+
+    <figcaption>
+        Out-of-focus fairy lights produce circular patterns through the optics of a camera lens. The formation, propagation, and manipulation of light are the central subjects of optics.
+    </figcaption>
+</figure>
+
 Optics is the study of light and its interaction with matter. It examines the propagation, reflection, refraction, diffraction, interference, and polarization of light, as well as the formation of images by lenses and mirrors. Modern optics extends beyond visible light to include the full electromagnetic spectrum and explores both classical and quantum properties of radiation. The field underlies technologies such as microscopes, telescopes, cameras, fiber optics, and lasers, while also providing deep insight into the nature of waves and electromagnetic phenomena.
 
 ## Table of Contents

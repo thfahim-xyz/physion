@@ -344,6 +344,30 @@ blockquote cite {
   border-bottom: 1px solid var(--text-muted);
 }
 
+/* ===== FIGURE ===== */
+
+.figure--center {
+    margin: 2rem auto;
+    max-width: 100%;
+}
+
+.figure--center img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    border-radius: 2px;
+}
+
+.figure--center figcaption {
+    margin-top: 0.75rem;
+
+    font-size: 0.9rem;
+    line-height: 1.5;
+
+    color: var(--text-muted);
+}
+
 /* ===== RESPONSIVENESS ===== */
 
 @media (min-width: 992px) {
