@@ -158,6 +158,12 @@ books:
           - title: Section 1
             url: /books/tdsm/tdsm02/01
 
+      - title: Kinetic Theory of Gases
+        url: /books/tdsm/tdsm03/tdsm03
+        sections:
+          - title: Section 1
+            url: /books/tdsm/tdsm03/01
+
   - title: Electromagnetism
     url: /books/em/em
     chapters:
@@ -241,13 +247,13 @@ books:
         url: /books/rel/rel01/rel01
         sections:
           - title: Section 1
-            url: #
+            url: /books/rel/rel01/01
 
       - title: General Relativity
         url: /books/rel/rel02/rel02
         sections:
           - title: Section 1
-            url: #
+            url: /books/rel/rel02/01
 
   - title: Quantum Mechanics
     url: /books/qm/qm
@@ -259,8 +265,6 @@ books:
             url: /books/qm/qm01/01
           - title: Wave-Particle Duality
             url: /books/qm/qm01/02
-          - title: Quantum Mechanical Model of the Atom
-            url: /books/qm/qm01/03
 
       - title: Formalism of Quantum Mechanics
         url: /books/qm/qm02/qm02
@@ -277,4 +281,3 @@ books:
         sections:
           - title: Section 1
             url: /books/qm/qm03/01
-

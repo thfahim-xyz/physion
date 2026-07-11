@@ -3,5 +3,5 @@ title: Statistical Mechanics
 layout: default
 ---
 
-# {{ page.title }}
+# Statistical Mechanics
 
