@@ -32,3 +32,9 @@ Electromagnetism is the branch of physics that studies electric and magnetic fie
         </li>
     {% endfor %}
 </ul>
+
+## List of Physical Quantities
+
+| Description | Common Symbols | Definition | SI Unit |
+|-------------|----------------|------------|---------|
+| Quantity    | $ Q $          | $  $       | -       |

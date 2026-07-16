@@ -32,3 +32,34 @@ Thermodynamics studies heat, work, energy, and the laws governing their transfor
         </li>
     {% endfor %}
 </ul>
+
+## List of Physical Quantities
+
+| Description                    | Common Symbols | Definition | SI Unit                           |
+|--------------------------------|----------------|------------|-----------------------------------|
+| Heat                           | $ Q $          | $  $       | J                                 |
+| Work                           | $ W  $         | $  $       | J                                 |
+| Temperature                    | $ T $          | $  $       | K                                 |
+| Entropy                        | $ S $          | $  $       | J K<sup>-1</sup>                  |
+| Pressure                       | $ P $          | $  $       | Pa                                |
+| Volume                         | $ V $          | $  $       | m<sup>-1</sup>                    |
+| Particle Number                | $ N $          | $  $       | -                                 |
+| Amount of Substance            | $ n $          | $  $       | mol                               |
+| Chemical Potential             | $ \mu $        | $  $       | J                                 |
+| Internal Energy                | $ U $          | $  $       | J                                 |
+| Enthalpy                       | $ H $          | $  $       | J                                 |
+| Helmholtz Free Energy          | $ F, A $       | $  $       | J                                 |
+| Gibbs Free Energy              | $ G $          | $  $       | J                                 |
+| Heat Capacity                  | $ C $          | $  $       | J K<sup>-1</sup>                  |
+| Molar Heat Capacity            | $ C_m $        | $  $       | J K<sup>-1</sup> mol<sup>-1</sup> |
+| Specific Heat Capacity         | $ c $          | $  $       | J K<sup>-1</sup> kg<sup>-1</sup>  |
+| Compressibility                | $ \beta $      | $  $       | -                                 |
+| Thermal Expansion Coefficients | $ \alpha $     | $  $       | -                                 |
+| Molar Mass                     | $ M $          | $  $       | kg mol<sup>-1</sup>               |
+| Mass Density                   | $ \rho $       | $  $       | kg m<sup>-3</sup>                 |
+| Heat Capacity Ratio            | $ \gamma $     | $  $       | 1                                 |
+| Efficiency                     | $ \eta $       | $  $       | 1                                 |
+| Heat Flux Density              | $  $           | $  $       | -                                 |
+| Heat Current                   | $  $           | $  $       | -                                 |
+| Thermal Conductivity           | $  $           | $  $       | -                                 |
+| Thermal Diffusivity            | $  $           | $  $       | -                                 |

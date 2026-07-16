@@ -32,3 +32,9 @@ Relativity is the theory that describes the nature of space, time, motion, and g
         </li>
     {% endfor %}
 </ul>
+
+## List of Physical Quantities
+
+| Description | Common Symbols | Definition | SI Unit |
+|-------------|----------------|------------|---------|
+| Quantity    | $ Q $          | $  $       | -       |

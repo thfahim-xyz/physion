@@ -32,3 +32,9 @@ Continuum mechanics is the branch of physics that studies the behavior of materi
         </li>
     {% endfor %}
 </ul>
+
+## List of Physical Quantities
+
+| Description | Common Symbols | Definition | SI Unit |
+|-------------|----------------|------------|---------|
+| Quantity    | $ Q $          | $  $       | -       |
