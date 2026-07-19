@@ -35,6 +35,8 @@ Classical mechanics is the branch of physics that studies the motion of macrosco
 
 ## List of Physical Quantities
 
+<div class="table__container" markdown="1">
+
 | Description          | Common Symbols                    | Definition                                                                 | SI Unit            |
 |----------------------|-----------------------------------|----------------------------------------------------------------------------|--------------------|
 | Time                 | $ t $                             | $ 0 \leq t \leq \infty $                                                   | s                  |
@@ -73,3 +75,5 @@ Classical mechanics is the branch of physics that studies the motion of macrosco
 | Phase Velocity       | $ \mathbf{v}_p $                  | $ \mathbf{v}_p = \dfrac{\omega}{k^2} \mathbf{k} $                          | m s<sup>-1</sup>   |
 | Group Velocity       | $ \mathbf{v}_g $                  | $ \mathbf {v}\_g = \nabla_{\mathbf{k}} \, \omega $                         | m s<sup>-1</sup>   |
 | Path Length          | $ s $                             | $ s = \int v_p \, \mathrm{d} t $                                           | m                  |
+
+</div>

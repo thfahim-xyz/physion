@@ -170,6 +170,12 @@ ul ul {
 
 /* ===== TABLES ===== */
 
+.table__container {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
 table {
     width: auto;
     max-width: 100%;

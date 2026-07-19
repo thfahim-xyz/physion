@@ -35,6 +35,10 @@ Quantum mechanics is the fundamental theory that describes the behavior of matte
 
 ## List of Physical Quantities
 
+<div class="table__container" markdown="1">
+
 | Description | Common Symbols | Definition | SI Unit |
 |-------------|----------------|------------|---------|
 | Quantity    | $ Q $          | $  $       | -       |
+
+</div>

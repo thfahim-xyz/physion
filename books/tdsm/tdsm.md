@@ -35,6 +35,8 @@ Thermodynamics studies heat, work, energy, and the laws governing their transfor
 
 ## List of Physical Quantities
 
+<div class="table__container" markdown="1">
+
 | Description                    | Common Symbols | Definition | SI Unit                           |
 |--------------------------------|----------------|------------|-----------------------------------|
 | Heat                           | $ Q $          | $  $       | J                                 |
@@ -63,3 +65,5 @@ Thermodynamics studies heat, work, energy, and the laws governing their transfor
 | Heat Current                   | $  $           | $  $       | -                                 |
 | Thermal Conductivity           | $  $           | $  $       | -                                 |
 | Thermal Diffusivity            | $  $           | $  $       | -                                 |
+
+</div>

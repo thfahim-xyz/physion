@@ -32,3 +32,13 @@ Optics is the study of light and its interaction with matter. It examines the pr
         </li>
     {% endfor %}
 </ul>
+
+## List of Physical Quantities
+
+<div class="table__container" markdown="1">
+
+| Description | Common Symbols | Definition | SI Unit |
+|-------------|----------------|------------|---------|
+| Quantity    | $ Q $          | $  $       | -       |
+
+</div>
