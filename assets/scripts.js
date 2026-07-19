@@ -1,3 +1,5 @@
+// MathJax Script
+
 window.MathJax = {
   tex: {
     packages: { '[+]': ['ams'] },
@@ -12,10 +14,34 @@ window.MathJax = {
   }
 };
 
-const sidebar = document.querySelector(".site__sidebar");
-const button = document.querySelector(".menu-toggle");
+// Script for expandable menu button
 
-button.addEventListener("click", () => {
+const sidebar = document.querySelector(".site__sidebar");
+const menu_button = document.querySelector(".menu-toggle");
+
+menu_button.addEventListener("click", () => {
   sidebar.classList.toggle("open");
-  button.classList.toggle("active");
+  menu_button.classList.toggle("active");
+});
+
+// Script for switching between light and dark mode
+
+const theme_button = document.getElementById("theme-toggle");
+const root = document.documentElement;
+
+const savedTheme = localStorage.getItem("theme");
+
+if (savedTheme) {
+    root.style.colorScheme = savedTheme;
+    theme_button.textContent = savedTheme === "dark" ? "☀" : "☾";
+}
+
+theme_button.addEventListener("click", () => {
+    const newTheme =
+        root.style.colorScheme === "dark" ? "light" : "dark";
+
+    root.style.colorScheme = newTheme;
+    localStorage.setItem("theme", newTheme);
+
+    theme_button.textContent = newTheme === "dark" ? "☀" : "☾";
 });

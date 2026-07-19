@@ -5,17 +5,26 @@
 /* ===== VARIABLES ===== */
 
 :root {
-    --bg-primary: #0a0a0a;
-    --surface: #121212;
-    --border: #333333;
+    color-scheme: light dark;
 
-    --accent: #0073ff;
-    --accent-hover: #1692ff;
+    --bg-primary: light-dark(#fafafa, #0a0a0a);
+    --surface: light-dark(#f7f7f8, #121212);
+    --border: light-dark(#d4d4d4, #333333);
 
-    --text-primary: #ededed;
-    --text-secondary: #a3a3a3;
-    --text-muted: #737373;
-    --highlight: #222222;
+    --accent: light-dark(#0066e5, #0074ff);
+    --accent-hover: light-dark(#1a7dff, #1692ff);
+
+    --heading-text: light-dark(#1d4ed8, #93c5fd);
+    --heading-bg:
+        light-dark(
+            linear-gradient(to right, rgba(59, 130, 246, 0.12), transparent), 
+            linear-gradient(to right, rgba(59, 130, 246, 0.06), transparent)
+        );
+
+    --text-primary: light-dark(#18181b, #ededed);
+    --text-secondary: light-dark(#52525b, #a3a3a3);
+    --text-muted: light-dark(#71717a, #737373);
+    --highlight: light-dark(#111827, #222222);
 
     --main-font-stack: Arial, sans-serif, system-ui;
 
@@ -30,7 +39,6 @@
 }
 
 html {
-    color-scheme: light dark;
     scroll-behavior: smooth;
 }
 
@@ -134,9 +142,9 @@ h2 {
     padding: 9px 20px;
     font-size: 1.5rem;
 
-    color: #93c5fd;
-    border-left: 3px solid #93c5fd;
-    background: linear-gradient(to right, rgba(59, 130, 246, 0.06), transparent);
+    color: var(--heading-text);
+    border-left: 3px solid var(--heading-text);
+    background: var(--heading-bg);
 }
 
 h3 {
@@ -308,30 +316,6 @@ blockquote cite {
     text-decoration: none;
 }
 
-/* ===== MENU BUTTON ===== */
-
-.menu-toggle {
-  background: none;
-  border: 1px solid var(--text-muted);
-  color: var(--text-primary);
-  padding: 0.5rem 1rem;
-  border-radius: var(--border-radius);
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background 0.2s ease, color 0.2s ease;
-}
-
-.menu-toggle:hover {
-  background-color: var(--highlight);
-  color: var(--accent-hover);
-}
-
-.menu-toggle.active {
-  background: var(--accent);
-  color: var(--surface);
-  border-color: var(--accent);
-}
-
 /* ===== TEXTBOX ===== */
 
 .box {
@@ -430,4 +414,58 @@ blockquote cite {
 
 #hero {
     text-align: center;
+}
+
+/* ===== MENU BUTTON ===== */
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Space between the buttons */
+}
+
+.menu-toggle {
+  background: none;
+  border: 1px solid var(--text-muted);
+  color: var(--text-primary);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.menu-toggle:hover {
+  background-color: var(--highlight);
+  color: var(--accent-hover);
+}
+
+.menu-toggle.active {
+  background: var(--accent);
+  color: var(--surface);
+  border-color: var(--accent);
+}
+
+/* ===== THEME TOGGLE ===== */
+
+#theme-toggle {
+    width: 2rem;
+    height: 2rem;
+
+    border: 1px solid var(--text-muted);
+    border-radius: 50%;
+
+    background: transparent;
+
+    color: inherit;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition:
+        transform 0.3s ease,
+        color 0.3s ease,
+        border-color 0.3s ease;
 }
