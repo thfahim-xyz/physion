@@ -29,7 +29,23 @@ menu_button.addEventListener("click", () => {
 const theme_button = document.getElementById("theme-toggle");
 const root = document.documentElement;
 
-const savedTheme = localStorage.getItem("theme");
+function loadTheme() {
+    try {
+        return localStorage.getItem("theme");
+    } catch {
+        return null;
+    }
+}
+
+function saveTheme(theme) {
+    try {
+        localStorage.setItem("theme", theme);
+    } catch {
+        // Ignore if storage is unavailable
+    }
+}
+
+const savedTheme = loadTheme();
 
 if (savedTheme) {
     root.style.colorScheme = savedTheme;
@@ -41,7 +57,8 @@ theme_button.addEventListener("click", () => {
         root.style.colorScheme === "dark" ? "light" : "dark";
 
     root.style.colorScheme = newTheme;
-    localStorage.setItem("theme", newTheme);
 
     theme_button.textContent = newTheme === "dark" ? "☀" : "☾";
+
+    saveTheme(newTheme);
 });
