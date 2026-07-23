@@ -425,6 +425,18 @@ blockquote cite {
 
 }
 
+/* ===== PRINT SETTINGS ===== */
+
+@media print {
+    .site__sidebar {
+        display: none;
+    }
+
+    main {
+        margin-top: 0;
+    }
+}
+
 /* ===== HERO SECTION ===== */
 
 #hero {
