@@ -42,7 +42,7 @@ books:
       - title: Multivariable Calculus
         url: /books/math_methods/math_methods02/math_methods02
         sections:
-          - title: Vector Algebra and Geometry
+          - title: Vectors
             url: /books/math_methods/math_methods02/01
           - title: Multivariable Functions
             url: /books/math_methods/math_methods02/02
@@ -52,6 +52,26 @@ books:
             url: /books/math_methods/math_methods02/04
           - title: Fundamental Theorems of Multivariable Calculus
             url: /books/math_methods/math_methods02/05
+
+      - title: Linear Algebra
+        url: /books/math_methods/math_methods03/math_methods03
+        sections:
+          - title: Section 1
+            url: /books/math_methods/math_methods03/01
+
+      - title: Differential Geometry
+        url: /books/math_methods/math_methods04/math_methods04
+        sections:
+          - title: Manifolds
+            url: /books/math_methods/math_methods04/01
+          - title: Tensors
+            url: /books/math_methods/math_methods04/02
+
+      - title: Probability Theory
+        url: /books/math_methods/math_methodsX/math_methodsX
+        sections:
+          - title: Foundations of Probability
+            url: /books/math_methods/math_methodsX/01
 
   - title: Classical Mechanics
     url: /books/cm/cm

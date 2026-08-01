@@ -206,12 +206,12 @@ table {
     width: auto;
     max-width: 100%;
     border-collapse: collapse;
-    border: 1px solid var(--text-primary);
+    border: 1px solid var(--border);
 }
 
 td {
     padding: 10px;
-    border: 1px solid var(--text-primary);
+    border: 1px solid var(--border);
 }
 
 th {
@@ -219,8 +219,8 @@ th {
     background-color: var(--surface);
     text-align: center;
     font-weight: bold;
-    border: 1px solid var(--text-primary);
-    border-bottom: 2px solid var(--text-primary);
+    border: 1px solid var(--border);
+    border-bottom: 2px solid var(--border);
 }
 
 /* ===== LINKS ===== */
