@@ -24,13 +24,16 @@
     /* CUSTOM COLORS */
 
     --accent-blue: #0073ff;
-    --light-blue: #1692ff;
-    --light-blue-2: #93c5fd;
-    --purple: #6d28d9;
-    --lavender: #a78bfa;
-    --pink: #f9a8d4;
+    --light-blue-2: #1692ff;
 
-    --heading-text: light-dark(#1d4ed8, var(--light-blue-2));
+    --blue: #1d4ed8;
+    --light-blue: #93c5fd;
+    --purple: #6d28d9;
+    --light-purple: #a78bfa;
+    --pink: #ec4899;
+    --light-pink: #f38bc8;
+
+    /* ELEMENTS */
     
     --background: light-dark(var(--offwhite), var(--offblack));
     --surface: light-dark(var(--offwhite-2), var(--offblack-2));
@@ -40,7 +43,15 @@
     --text-secondary: #717171;
     --highlight: #222222;
 
-    --main-font-stack: Arial, sans-serif, system-ui;
+    --h2-text: light-dark(var(--blue), var(--light-blue));
+    --h3-text: light-dark(var(--purple), var(--light-purple));
+    --h4-text: light-dark(var(--pink), var(--light-pink));
+
+    --h1-bg: linear-gradient(to right, rgba(50, 50, 50, 0.25), transparent);
+    --h2-bg: light-dark(linear-gradient(to right, rgba(59, 130, 246, 0.2), transparent), linear-gradient(to right, rgba(59, 130, 246, 0.1), transparent));
+    --h3-bg: light-dark(linear-gradient(to right, rgba(167, 139, 250, 0.2), transparent), linear-gradient(to right, rgba(167, 139, 250, 0.1), transparent));
+
+    --fonts: Arial, sans-serif, system-ui;
 
     --pill-radius: 9999px;
     
@@ -61,7 +72,7 @@ body {
     padding: 0;
     height: 100%;
 
-    font-family: var(--main-font-stack);
+    font-family: var(--fonts);
     font-size: 1rem;
     line-height: 1.7;
 
@@ -149,27 +160,32 @@ h1 {
 
     color: var(--text-primary);
     border-left: 3px solid var(--text-primary);
-    background: linear-gradient(to right, rgba(50, 50, 50, 0.25), transparent);
+    background: var(--h1-bg);
 }
 
 h2 {
     padding: 9px 20px;
     font-size: 1.5rem;
 
-    color: var(--heading-text);
-    border-left: 3px solid var(--heading-text);
-    background: linear-gradient(to right, rgba(59, 130, 246, 0.10), transparent);
+    color: var(--h2-text);
+    border-left: 3px solid var(--h2-text);
+    background: var(--h2-bg);
 }
 
 h3 {
+    padding: 9px 20px;
     font-size: 1.25rem;
-    border-bottom: 1px solid var(--border);
 
-    color: var(--text-primary);
+    color: var(--h3-text);
+    border-left: 3px solid var(--h3-text);
+    background: var(--h3-bg);
 }
 
 h4 {
     font-size: 1.15rem;
+    border-bottom: 1px solid var(--h4-text);
+
+    color: var(--h4-text);
 }
 
 /* ===== LISTS ===== */
@@ -232,7 +248,7 @@ a {
 }
 
 a:hover {
-    color: var(--light-blue);
+    color: var(--light-blue-2);
     text-decoration: underline;
 }
 
@@ -470,7 +486,7 @@ blockquote cite {
 
 .menu-toggle:hover {
     background-color: var(--highlight);
-    color: var(--light-blue);
+    color: var(--light-blue-2);
 }
 
 .menu-toggle.active {

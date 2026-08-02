@@ -194,44 +194,36 @@ books:
             url: /books/em/em01/01
           - title: Electric Potential
             url: /books/em/em01/02
-
-      - title: Electrostatics in Matter
-        url: /books/em/em02/em02
-        sections:
-          - title: Section 1
-            url: /books/em/em02/01
+          - title: Electrostatics in Matter
+            url: /books/em/em01/03
       
       - title: Magnetostatics
-        url: /books/em/em03/em03
+        url: /books/em/em02/em02
         sections:
           - title: Magnetic Field
-            url: /books/em/em03/01
+            url: /books/em/em02/01
           - title: Magnetic Potential
-            url: /books/em/em03/02
-      
-      - title: Magnetostatics in Matter
-        url: /books/em/em04/em04
-        sections:
-          - title: Section 1
-            url: /books/em/em04/01
+            url: /books/em/em02/02
+          - title: Magnetostatics in Matter
+            url: /books/em/em02/03
 
       - title: Electrodynamics
-        url: /books/em/em05/em05
+        url: /books/em/em03/em03
         sections:
           - title: Maxwell's Equations
-            url: /books/em/em05/01
+            url: /books/em/em03/01
           - title: Solutions of Maxwell's Equations
-            url: /books/em/em05/02
+            url: /books/em/em03/02
 
       - title: Electrical Circuit Analysis
-        url: /books/em/em06/em06
+        url: /books/em/em04/em04
         sections:
           - title: Fundamentals of Circuit Analysis
-            url: /books/em/em06/01
+            url: /books/em/em04/01
           - title: Circuit Elements
-            url: /books/em/em06/02
+            url: /books/em/em04/02
           - title: Circuit Analysis
-            url: /books/em/em06/03
+            url: /books/em/em04/03
 
   - title: Optics
     url: /books/optics/optics
