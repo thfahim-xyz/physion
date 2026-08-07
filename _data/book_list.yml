@@ -83,12 +83,8 @@ books:
             url: /books/cm/cm01/01
           - title: Rotational Kinematic Quantities
             url: /books/cm/cm01/02
-          - title: Motion in One Dimension
+          - title: Particle Motion
             url: /books/cm/cm01/03
-          - title: Motion in Two and Three Dimensions
-            url: /books/cm/cm01/04
-          - title: Relative Motion
-            url: /books/cm/cm01/05
 
       - title: Particle Dynamics
         url: /books/cm/cm02/cm02
@@ -116,11 +112,17 @@ books:
           - title: Section 1
             url: /books/cm/cm04/01
 
-      - title: Central Force Motion
+      - title: Central Force Dynamics
         url: /books/cm/cm05/cm05
         sections:
-          - title: Section 1
+          - title: Central Force Motion
             url: /books/cm/cm05/01
+          - title: Two-Body Problem
+            url: /books/cm/cm05/02
+          - title: Gravitation
+            url: /books/cm/cm05/03
+          - title: Orbital Mechanics
+            url: /books/cm/cm05/04
 
       - title: Oscillations and Waves
         url: /books/cm/cm06/cm06
