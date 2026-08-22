@@ -3,19 +3,10 @@ title: Physion
 layout: default
 ---
 
-<div class="site__wordmark" id="hero">Physion</div>
-<p id="hero">Physics Notes (Work in Progress)</p>
+<section class="hero">
+    <h1 class="site__wordmark">Physion</h1>
 
-<div id="hero">
-  <a href="{{ '/library' | relative_url }}" class="btn--primary">Explore</a>
-</div>
+    <p class="hero">A concise guide to physics</p>
 
-# Library
-
-<ul>
-  {% for book in site.data.book_list.books %}
-    <li>
-      <a href="{{ book.url | relative_url }}">{{ book.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+    <a href="{{ '/library' | relative_url }}" class="btn--primary">Explore</a>
+</section>

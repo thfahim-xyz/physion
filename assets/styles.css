@@ -459,8 +459,14 @@ blockquote cite {
 
 /* ===== HERO SECTION ===== */
 
-#hero {
+.hero {
     text-align: center;
+}
+
+.hero h1 {
+    border: none;
+    background: none;
+    font-size: 3.5rem;
 }
 
 /* ===== MENU BUTTON ===== */
