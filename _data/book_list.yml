@@ -37,7 +37,7 @@ books:
           - title: Integration
             url: /books/math_methods/math_methods01/05
           - title: Applications of Integration
-            url: /books/math_methods/math_methods01/05
+            url: /books/math_methods/math_methods01/06
 
       - title: Multivariable Calculus
         url: /books/math_methods/math_methods02/math_methods02
@@ -56,8 +56,16 @@ books:
       - title: Linear Algebra
         url: /books/math_methods/math_methods03/math_methods03
         sections:
-          - title: Section 1
+          - title: Vector Spaces
             url: /books/math_methods/math_methods03/01
+          - title: Linear Transformations
+            url: /books/math_methods/math_methods03/02
+          - title: Eigenvalues and Eigenvectors
+            url: /books/math_methods/math_methods03/03
+          - title: Inner Product Spaces
+            url: /books/math_methods/math_methods03/04
+          - title: Spectral Theory
+            url: /books/math_methods/math_methods03/05
 
       - title: Differential Geometry
         url: /books/math_methods/math_methods04/math_methods04
@@ -66,6 +74,10 @@ books:
             url: /books/math_methods/math_methods04/01
           - title: Tensors
             url: /books/math_methods/math_methods04/02
+          - title: Connections
+            url: /books/math_methods/math_methods04/03
+          - title: Curvature
+            url: /books/math_methods/math_methods04/04
 
       - title: Probability Theory
         url: /books/math_methods/math_methodsX/math_methodsX
@@ -117,12 +129,14 @@ books:
         sections:
           - title: Central Force Motion
             url: /books/cm/cm05/01
-          - title: Two-Body Problem
+          - title: Keplerian Motion
             url: /books/cm/cm05/02
-          - title: Gravitation
+          - title: Two-Body Problem
             url: /books/cm/cm05/03
-          - title: Orbital Mechanics
+          - title: Gravitation
             url: /books/cm/cm05/04
+          - title: Orbital Mechanics
+            url: /books/cm/cm05/05
 
       - title: Oscillations and Waves
         url: /books/cm/cm06/cm06
@@ -131,6 +145,36 @@ books:
             url: /books/cm/cm06/01
           - title: Waves
             url: /books/cm/cm06/02
+
+      - title: Lagrangian Mechanics
+        url: /books/cm/cm07/cm07
+        sections:
+          - title: Configuration Space
+            url: /books/post #/books/cm/cm07/01
+          - title: Lagrangian
+            url: /books/post #/books/cm/cm07/02
+          - title: Euler-Lagrange Dynamics
+            url: /books/post #/books/cm/cm07/03
+          - title: Constraints
+            url: /books/post #/books/cm/cm07/04
+          - title: Symmetries and Conservation Laws
+            url: /books/post #/books/cm/cm07/05
+
+      - title: Hamiltonian Mechanics
+        url: /books/cm/cm08/cm08
+        sections:
+          - title: Phase Space
+            url: /books/post #/books/cm/cm08/01
+          - title: Hamiltonian
+            url: /books/post #/books/cm/cm08/02
+          - title: Hamilton's Equations
+            url: /books/post #/books/cm/cm08/02
+          - title: Poisson Brackets
+            url: /books/post #/books/cm/cm08/02
+          - title: Canonical Transformations
+            url: /books/post #/books/cm/cm08/02
+          - title: Hamilton-Jacobi Theory
+            url: /books/post #/books/cm/cm08/02
 
   - title: Continuum Mechanics
     url: /books/cont_mech/cont_mech
@@ -233,14 +277,26 @@ books:
       - title: Geometric Optics
         url: /books/optics/optics01/optics01
         sections:
-          - title: Section 1
-            url: #
+          - title: Light Rays
+            url: /books/post
+          - title: Reflection and Refraction
+            url: /books/post
+          - title: Optical Systems
+            url: /books/post
+          - title: Optical Instruments
+            url: /books/post
 
       - title: Physical Optics
         url: /books/optics/optics02/optics02
         sections:
-          - title: Section 1
-            url: #
+          - title: Light Waves
+            url: /books/post
+          - title: Interference and Diffraction
+            url: /books/post
+          - title: Polarization
+            url: /books/post
+          - title: Optical Phenomena
+            url: /books/post
 
       - title: Radiometry
         url: /books/optics/optics03/optics03
@@ -260,14 +316,28 @@ books:
       - title: Special Relativity
         url: /books/rel/rel01/rel01
         sections:
-          - title: Section 1
+          - title: Fundamentals of Special Relativity
             url: /books/rel/rel01/01
+          - title: Relativistic Mechanics
+            url: /books/rel/rel01/02
+          - title: Relativistic Electrodynamics
+            url: /books/rel/rel01/03
 
       - title: General Relativity
         url: /books/rel/rel02/rel02
         sections:
-          - title: Section 1
-            url: /books/rel/rel02/01
+          - title: Fundamentals of General Relativity
+            url: /books/post #/books/rel/rel02/01
+          - title: Tensor Formulation of Gravity
+            url: /books/post #/books/rel/rel02/02
+          - title: Einstein Field Equations
+            url: /books/post #/books/rel/rel02/03
+          - title: Exact Solutions
+            url: /books/post #/books/rel/rel02/04
+          - title: Gravitational Waves
+            url: /books/post #/books/rel/rel02/05
+          - title: Cosmology
+            url: /books/post #/books/rel/rel02/06
 
   - title: Quantum Mechanics
     url: /books/qm/qm

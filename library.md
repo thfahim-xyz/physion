@@ -39,6 +39,7 @@ layout: default
 ## Additional Resources
 
 ### Books
+
 - [Fundamentals of Physics - David Halliday, Jearl Walker, Robert Resnick](https://en.wikipedia.org/wiki/Fundamentals_of_Physics)
 - [University Physics: With Modern Physics - Hugh Young, Roger Freedman, Francis Sears, Mark Zemansky](https://en.wikipedia.org/wiki/University_Physics)
 - [Mathematical Methods in the Physical Sciences - Mary L. Boas](https://en.wikipedia.org/wiki/Mathematical_Methods_in_the_Physical_Sciences)
@@ -57,21 +58,25 @@ layout: default
 - [Introduction to Quantum Mechanics - David J. Griffiths](https://en.wikipedia.org/wiki/Introduction_to_Quantum_Mechanics_(book))
 - [Modern Quantum Mechanics - J. J. Sakurai, Jim Napolitano](https://en.wikipedia.org/wiki/Modern_Quantum_Mechanics)
 
-### YouTube Channels
-- [3Blue1Brown](https://www.youtube.com/@3blue1brown)
-- [Physics with Elliot](https://www.youtube.com/@PhysicswithElliot)
-- [Quantum Sense](https://www.youtube.com/@quantumsensechannel)
-- [All Things Physics](https://www.youtube.com/@AllThingsPhysicsYouTube)
-- [eigenchris](https://www.youtube.com/@eigenchris)
-- [PBS Space Time](https://www.youtube.com/@pbsspacetime)
-- [Physics Explained](https://www.youtube.com/@PhysicsExplainedVideos)
-- [minutephysics](https://www.youtube.com/@MinutePhysics)
-- [Looking Glass Universe](https://www.youtube.com/@LookingGlassUniverse)
-- [Physics Girl](https://www.youtube.com/@physicsgirl/featured)
-- [Veritasium](https://www.youtube.com/@veritasium)
-- [CrashCourse](https://www.youtube.com/@crashcourse)
+### Courses
+
+- [Essence of calculus - 3Blue1Brown](https://youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&si=XRi9UxV4iNkCUyxw)
+- [Essence of linear algebra - 3Blue1Brown](https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&si=U3pdWtJhKQ0u3a7I)
+- [Tensors for Beginners - eigenchris](https://youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&si=6xtbkPqlbzMiNIKP)
+- [Tensor Calculus - eigenchris](https://youtube.com/playlist?list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx&si=YQSCqoOYd11n5ojG)
+- [Relativity by eigenchris - eigenchris](https://youtube.com/playlist?list=PLJHszsWbB6hqlw73QjgZcFh4DrkQLSCQa&si=hN--0xHjnOYby4EB)
+- [Spinors for Beginners - eigenchris](https://youtube.com/playlist?list=PLJHszsWbB6hoOo_wMb0b6T44KM_ABZtBs&si=1OjbDyRgC3c369hh)
+- [Intro to Special Relativity Course - minutephysics](https://youtube.com/playlist?list=PLoaVOjvkzQtyjhV55wZcdicAz5KexgKvm&si=S7lTnfvnbL9jwDYT)
+- [Lagrangian Mechanics Sequence - Physics with Elliot](https://youtube.com/playlist?list=PL-IZN8QRUw-xRsoJPtXBlJyWlWrjVEF0x&si=Jix04hZ8oPInsSYr)
+- [Hamiltonian Mechanics Sequence - Physics with Elliot](https://youtube.com/playlist?list=PL-IZN8QRUw-zBECgfYLuDQ3qkWsXWAGhM&si=Od6lwCYj0gIyXWtK)
+- [Physics Mini Lessons - Physics with Elliot](https://youtube.com/playlist?list=PL-IZN8QRUw-ykZ0yIZ-I5jeByyYHmcCcF&si=b23_CSYOVITAnVam)
 
 ### Websites
 - [Khan Academy](https://www.khanacademy.org/)
 - [MIT OpenCourseWare](https://ocw.mit.edu/)
 - [PhET](https://phet.colorado.edu/)
+- [Orbital Mechanics & Astrodynamics](https://orbital-mechanics.space/)
+
+### YouTube Channels
+
+[3Blue1Brown](https://www.youtube.com/@3blue1brown) · [Physics with Elliot](https://www.youtube.com/@PhysicswithElliot) · [Quantum Sense](https://www.youtube.com/@quantumsensechannel) · [All Things Physics](https://www.youtube.com/@AllThingsPhysicsYouTube) · [eigenchris](https://www.youtube.com/@eigenchris) · [PBS Space Time](https://www.youtube.com/@pbsspacetime) · [Physics Explained](https://www.youtube.com/@PhysicsExplainedVideos) · [minutephysics](https://www.youtube.com/@MinutePhysics) · [Looking Glass Universe](https://www.youtube.com/@LookingGlassUniverse) · [Physics Girl](https://www.youtube.com/@physicsgirl/featured) · [Veritasium](https://www.youtube.com/@veritasium) · [CrashCourse](https://www.youtube.com/@crashcourse) · [Michel van Biezen](https://www.youtube.com/@MichelvanBiezen)

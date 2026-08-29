@@ -10,3 +10,5 @@ layout: default
 
     <a href="{{ '/library' | relative_url }}" class="btn--primary">Explore</a>
 </section>
+
+<p style="text-align: center; font-size: 12px; color: #777777; margin-top: 20px; font-family: sans-serif;">This site is under active development</p>

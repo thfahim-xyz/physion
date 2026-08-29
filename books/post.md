@@ -1,5 +1,5 @@
 ---
-title: TITLE
+title: Coming Soon...
 layout: default
 ---
 
