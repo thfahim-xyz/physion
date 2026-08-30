@@ -144,6 +144,12 @@ mjx-container[display="true"] {
     padding-bottom: 0.2em;
 }
 
+mjx-container[display="true"] {
+    margin-left: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
 /* ===== HEADINGS ===== */
 
 h1, h2, h3 {
