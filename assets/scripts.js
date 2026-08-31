@@ -1,23 +1,32 @@
 // MathJax Script
 
 window.MathJax = {
-  tex: {
-    packages: { '[+]': ['ams'] },
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']]
-  },
-  chtml: {
-    scale: 1.1,
-    matchFontHeight: false,
-    displayAlign: 'left',
-    displayIndent: '1em'
-  },
-  svg: {
-    scale: 1.1,
-    matchFontHeight: false,
-    displayAlign: 'left',
-    displayIndent: '1em'
-  }
+    tex: {
+        packages: { '[+]': ['ams'] },
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+    },
+    options: {
+        ignoreHtmlClass: 'tex2jax_ignore',
+        processHtmlClass: 'tex2jax_process'
+    },
+    svg: {
+        scale: 1.1,
+        matchFontHeight: false,
+        linebreaks: {
+            automatic: true,
+            width: 'container'
+        }
+    },
+    chtml: {
+        scale: 1.2,
+        matchFontHeight: false,
+        linebreaks: {
+            automatic: true,
+            width: 'container'
+        }
+    }
 };
 
 // Script for expandable menu button

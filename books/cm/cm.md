@@ -39,7 +39,7 @@ Classical mechanics is the branch of physics that studies the motion of macrosco
 
 | Description          | Common Symbols                    | Definition                                                                 | SI Unit            |
 |----------------------|-----------------------------------|----------------------------------------------------------------------------|--------------------|
-| Time                 | $ t $                             | $ 0 \leq t \leq \infty $                                                   | s                  |
+| Time                 | \( t \)                             | $ 0 \leq t \leq \infty $                                                   | s                  |
 | Linear Coordinates   | $ x, y, z  $                      | $ - \infty \leq x \leq \infty $                                            | m                  |
 | Angular Coordinates  | $ \theta, \varphi, \alpha $       | $ 0 \leq \theta \leq 2 \pi \; $ or $ \; 0 \leq \theta \leq \pi $           | rad                |
 | Mass                 | $ m $                             | $ 0 \leq m \leq \infty $                                                   | kg                 |
