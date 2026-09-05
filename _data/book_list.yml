@@ -88,93 +88,85 @@ books:
   - title: Classical Mechanics
     url: /books/cm/cm
     chapters:
-      - title: Particle Kinematics
+      - title: Particle Mechanics
         url: /books/cm/cm01/cm01
         sections:
-          - title: Translational Kinematic Quantities
+          - title: Kinematic Quantities
             url: /books/cm/cm01/01
-          - title: Rotational Kinematic Quantities
+          - title: Dynamic Quantities
             url: /books/cm/cm01/02
-          - title: Particle Motion
-            url: /books/cm/cm01/03
-
-      - title: Particle Dynamics
-        url: /books/cm/cm02/cm02
-        sections:
-          - title: Translational Dynamic Quantities
-            url: /books/cm/cm02/01
-          - title: Rotational Dynamic Quantities
-            url: /books/cm/cm02/02
           - title: Energy Quantities
-            url: /books/cm/cm02/03
+            url: /books/cm/cm01/03
           - title: Principles of Dynamics
-            url: /books/cm/cm02/04
+            url: /books/cm/cm01/04
+          - title: Particle Kinematics
+            url: /books/cm/cm01/05
           - title: Applications of Newton's Laws
-            url: /books/cm/cm02/05
+            url: /books/cm/cm01/06
 
       - title: Systems of Particles
+        url: /books/cm/cm02/cm02
+        sections:
+          - title: Section 1
+            url: /books/cm/cm02/01
+      
+      - title: Rigid Body Dynamics
         url: /books/cm/cm03/cm03
         sections:
           - title: Section 1
             url: /books/cm/cm03/01
-      
-      - title: Rigid Body Dynamics
-        url: /books/cm/cm04/cm04
-        sections:
-          - title: Section 1
-            url: /books/cm/cm04/01
 
       - title: Central Force Dynamics
-        url: /books/cm/cm05/cm05
+        url: /books/cm/cm04/cm04
         sections:
           - title: Central Force Motion
-            url: /books/cm/cm05/01
+            url: /books/cm/cm04/01
           - title: Keplerian Motion
-            url: /books/cm/cm05/02
+            url: /books/cm/cm04/02
           - title: Two-Body Problem
-            url: /books/cm/cm05/03
+            url: /books/cm/cm04/03
           - title: Gravitation
-            url: /books/cm/cm05/04
+            url: /books/cm/cm04/04
           - title: Orbital Mechanics
-            url: /books/cm/cm05/05
+            url: /books/cm/cm04/05
 
       - title: Oscillations and Waves
-        url: /books/cm/cm06/cm06
+        url: /books/cm/cm05/cm05
         sections:
           - title: Oscillations
-            url: /books/cm/cm06/01
+            url: /books/cm/cm05/01
           - title: Waves
-            url: /books/cm/cm06/02
+            url: /books/cm/cm05/02
 
       - title: Lagrangian Mechanics
-        url: /books/cm/cm07/cm07
+        url: /books/cm/cm06/cm06
         sections:
           - title: Configuration Space
-            url: /books/post #/books/cm/cm07/01
+            url: /books/post #/books/cm/cm06/01
           - title: Lagrangian
-            url: /books/post #/books/cm/cm07/02
+            url: /books/post #/books/cm/cm06/02
           - title: Euler-Lagrange Dynamics
-            url: /books/post #/books/cm/cm07/03
+            url: /books/post #/books/cm/cm06/03
           - title: Constraints
-            url: /books/post #/books/cm/cm07/04
+            url: /books/post #/books/cm/cm06/04
           - title: Symmetries and Conservation Laws
-            url: /books/post #/books/cm/cm07/05
+            url: /books/post #/books/cm/cm06/05
 
       - title: Hamiltonian Mechanics
-        url: /books/cm/cm08/cm08
+        url: /books/cm/cm07/cm07
         sections:
           - title: Phase Space
-            url: /books/post #/books/cm/cm08/01
+            url: /books/post #/books/cm/cm07/01
           - title: Hamiltonian
-            url: /books/post #/books/cm/cm08/02
+            url: /books/post #/books/cm/cm07/02
           - title: Hamilton's Equations
-            url: /books/post #/books/cm/cm08/02
+            url: /books/post #/books/cm/cm07/03
           - title: Poisson Brackets
-            url: /books/post #/books/cm/cm08/02
+            url: /books/post #/books/cm/cm07/04
           - title: Canonical Transformations
-            url: /books/post #/books/cm/cm08/02
+            url: /books/post #/books/cm/cm07/05
           - title: Hamilton-Jacobi Theory
-            url: /books/post #/books/cm/cm08/02
+            url: /books/post #/books/cm/cm07/06
 
   - title: Continuum Mechanics
     url: /books/cont_mech/cont_mech
