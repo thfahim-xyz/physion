@@ -18,20 +18,32 @@ Continuum mechanics is the branch of physics that studies the behavior of materi
 
 ## Table of Contents
 
-<ul>
-    {% for chapter in site.data.book_list.books[3].chapters %}
-        <li>
-            <a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a>
-            <ul>
-                {% for section in chapter.sections %}
-                    <li>
-                        <a href="{{ section.url | relative_url }}">{{ section.title }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
-        </li>
-    {% endfor %}
-</ul>
+<table>
+    <thead>
+        <tr>
+            <th>Chapter</th>
+            <th>Sections</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for chapter in site.data.book_list.books[3].chapters %}
+            <tr>
+                <td>
+                    <a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a>
+                </td>
+                <td>
+                    <ul>
+                        {% for section in chapter.sections %}
+                            <li>
+                                <a href="{{ section.url | relative_url }}">{{ section.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
 
 ## List of Physical Quantities
 

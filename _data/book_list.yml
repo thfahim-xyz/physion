@@ -101,20 +101,28 @@ books:
             url: /books/cm/cm01/04
           - title: Particle Kinematics
             url: /books/cm/cm01/05
-          - title: Applications of Newton's Laws
+          - title: Particle Dynamics
             url: /books/cm/cm01/06
 
       - title: Systems of Particles
         url: /books/cm/cm02/cm02
         sections:
-          - title: Section 1
+          - title: Kinematics of Systems
             url: /books/cm/cm02/01
+          - title: Dynamics of Systems
+            url: /books/cm/cm02/02
+          - title: Two-Body Systems
+            url: /books/cm/cm02/03
       
-      - title: Rigid Body Dynamics
+      - title: Rigid Bodies
         url: /books/cm/cm03/cm03
         sections:
-          - title: Section 1
+          - title: Rigid Body Kinematics
             url: /books/cm/cm03/01
+          - title: Rigid Body Dynamics
+            url: /books/cm/cm03/02
+          - title: General Rotations
+            url: /books/cm/cm03/03
 
       - title: Central Force Dynamics
         url: /books/cm/cm04/cm04
