@@ -49,8 +49,13 @@ Optics is the study of light and its interaction with matter. It examines the pr
 
 <div class="table__container" markdown="1">
 
-| Description | Common Symbols | Definition | SI Unit |
-|-------------|----------------|------------|---------|
-| Quantity    | $ Q $          | $  $       | -       |
+| Description               | Common Symbols | Definition | SI Unit        |
+|---------------------------|----------------|------------|----------------|
+| Refractive Index          | $ n $          | $  $       | -              |
+| Relative Refractive Index | $ n_{ba} $     | $  $       | -              |
+| Magnification             | $ m $          | $  $       | -              |
+| Optical Power             | $ P $          | $  $       | m<sup>-1</sup> |
+| Grating Constant          | $ N $          | $  $       | m<sup>-1</sup> |
+| Irradiance                | $ I $          | $  $       |                |
 
 </div>

@@ -22,8 +22,73 @@
 
   <div class="site__layout">
     
-    {% include sidebar.html %}
+    <!-- Sidebar -->
+
+    <aside class="site__sidebar">
+      
+      <!-- Header -->
+
+      <header class="site__header">
+        
+        <div class="site__wordmark">
+          <a href="{{ '/index' | relative_url }}">Physion</a>
+        </div>
+        
+        <p>
+          T. H. Fahim
+          <br>
+          <a href="mailto:thfahim.xyz@gmail.com">thfahim.xyz@gmail.com</a>
+        </p>
+        
+        <div class="header-buttons">
+          <button class="menu-toggle">Menu</button>
+          <button id="theme-toggle">☾</button>
+        </div>
+      
+      </header>
+      
+      <!-- Navigation -->
+
+      <nav class="site__navbar">
+        
+        <hr>
+        
+        <ul>
+          <li><a href="{{ '/library' | relative_url }}">Library</a></li>
+        </ul>
+        
+        <hr>
+        
+        <ul>
+          {% for book in site.data.book_list.books %}
+          <li>
+            <a href="{{ book.url | relative_url }}">{{ book.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        
+        <hr>
+        
+        <ul>
+          <li><a href="{{ '/about' | relative_url }}">About</a></li>
+        </ul>
+        
+        <hr>
+      
+      </nav>
+      
+      <!-- Footer -->
+
+      <footer class="site__footer">
+        
+        <p>&copy; 2026 Physion</p>
+      
+      </footer>
     
+    </aside>
+    
+    <!-- Content -->
+
     <main class="site__content">
       {{ content }}
     </main>

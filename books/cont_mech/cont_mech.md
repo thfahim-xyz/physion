@@ -49,8 +49,28 @@ Continuum mechanics is the branch of physics that studies the behavior of materi
 
 <div class="table__container" markdown="1">
 
-| Description | Common Symbols | Definition | SI Unit |
-|-------------|----------------|------------|---------|
-| Quantity    | $ Q $          | $  $       | -       |
+| Description         | Common Symbols         | Definition | SI Unit           |
+|---------------------|------------------------|------------|-------------------|
+| Mass Density        | $ \rho $               | $  $       | kg m<sup>-3</sup> |
+| Normal Stress       | $ \sigma $             | $  $       |                   |
+| Pressure            | $ P $                  | $  $       |                   |
+| Shear Stress        | $ \tau $               | $  $       |                   |
+| Normal Strain       | $ \varepsilon $        | $  $       |                   |
+| Volumetric Strain   | $ \delta $             | $  $       |                   |
+| Shear Strain        | $ \gamma $             | $  $       |                   |
+| Young's Modulus     | $ Y $                  | $  $       |                   |
+| Bulk Modulus        | $ B $                  | $  $       |                   |
+| Shear Modulus       | $ G $                  | $  $       |                   |
+| Poisson's Ratio     | $ \nu $                | $  $       |                   |
+| Relative Density    | $ R.D $                | $  $       |                   |
+| Surface Tension     | $ \gamma $             | $  $       |                   |
+| Vorticity           | $ \boldsymbol \omega $ | $  $       |                   |
+| Velocity Potential  | $ \phi $               | $  $       |                   |
+| Mass Flow Rate      | $ q_m $                | $  $       |                   |
+| Volume Flow Rate    | $ q_V $                | $  $       |                   |
+| Kinematic Viscosity | $ \nu $                | $  $       |                   |
+| Dynamic Viscosity   | $ \mu $                | $  $       |                   |
+| Reynolds Number     | $ \mathrm{Re} $                 | $  $       |                   |
+
 
 </div>

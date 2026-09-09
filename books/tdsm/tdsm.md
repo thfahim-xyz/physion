@@ -67,15 +67,15 @@ Thermodynamics studies heat, work, energy, and the laws governing their transfor
 | Heat Capacity                  | $ C $            | $  $       | J K<sup>-1</sup>                  |
 | Molar Heat Capacity            | $ C_m $          | $  $       | J K<sup>-1</sup> mol<sup>-1</sup> |
 | Specific Heat Capacity         | $ c $            | $  $       | J K<sup>-1</sup> kg<sup>-1</sup>  |
-| Compressibility                | $ \beta $        | $  $       | -                                 |
-| Thermal Expansion Coefficients | $ \alpha $       | $  $       | -                                 |
+| Compressibility                | $ \beta $        | $  $       |                                  |
+| Thermal Expansion Coefficients | $ \alpha $       | $  $       |                                  |
 | Molar Mass                     | $ M $            | $  $       | kg mol<sup>-1</sup>               |
 | Mass Density                   | $ \rho $         | $  $       | kg m<sup>-3</sup>                 |
 | Heat Capacity Ratio            | $ \gamma $       | $  $       | 1                                 |
 | Efficiency                     | $ \eta $         | $  $       | 1                                 |
-| Heat Flux Density              | $ \mathbf q $    | $  $       | -                                 |
-| Heat Current                   | $ \Phi_q $       | $  $       | -                                 |
-| Thermal Conductivity           | $ k, \kappa $    | $  $       | -                                 |
-| Thermal Diffusivity            | $ a, \alpha, D $ | $  $       | -                                 |
+| Heat Flux Density              | $ \mathbf q $    | $  $       |                                  |
+| Heat Current                   | $ \Phi_q $       | $  $       |                                  |
+| Thermal Conductivity           | $ k, \kappa $    | $  $       |                                  |
+| Thermal Diffusivity            | $ a, \alpha, D $ | $  $       |                                  |
 
 </div>
