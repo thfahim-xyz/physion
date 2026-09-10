@@ -219,14 +219,12 @@ books:
       - title: Statistical Mechanics
         url: /books/tdsm/tdsm02/tdsm02
         sections:
-          - title: Section 1
+          - title: Foundations of Statistical Mechanics
             url: /books/tdsm/tdsm02/01
-
-      - title: Kinetic Theory of Gases
-        url: /books/tdsm/tdsm03/tdsm03
-        sections:
-          - title: Section 1
-            url: /books/tdsm/tdsm03/01
+          - title: Statistical Thermodynamics
+            url: /books/tdsm/tdsm02/02
+          - title: Kinetic Theory of Gases
+            url: /books/tdsm/tdsm02/03
 
   - title: Electromagnetism
     url: /books/em/em
@@ -325,17 +323,15 @@ books:
         url: /books/rel/rel02/rel02
         sections:
           - title: Fundamentals of General Relativity
-            url: /books/post #/books/rel/rel02/01
-          - title: Tensor Formulation of Gravity
-            url: /books/post #/books/rel/rel02/02
-          - title: Einstein Field Equations
-            url: /books/post #/books/rel/rel02/03
-          - title: Exact Solutions
-            url: /books/post #/books/rel/rel02/04
+            url: /books/rel/rel02/01
+          - title: Einstein's Theory of Gravitation
+            url: /books/rel/rel02/02
+          - title: Solutions to Einstein Field Equations
+            url: /books/rel/rel02/03
           - title: Gravitational Waves
-            url: /books/post #/books/rel/rel02/05
+            url: /books/rel/rel02/04
           - title: Cosmology
-            url: /books/post #/books/rel/rel02/06
+            url: /books/rel/rel02/05
 
   - title: Quantum Mechanics
     url: /books/qm/qm
