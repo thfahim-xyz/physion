@@ -67,23 +67,145 @@ books:
           - title: Spectral Theory
             url: /books/math_methods/math_methods03/05
 
-      - title: Differential Geometry
+      - title: Sequences and Series
         url: /books/math_methods/math_methods04/math_methods04
         sections:
-          - title: Manifolds
+          - title: Sequences
             url: /books/math_methods/math_methods04/01
-          - title: Tensors
+          - title: Infinite Series
             url: /books/math_methods/math_methods04/02
-          - title: Connections
+          - title: Power Series
             url: /books/math_methods/math_methods04/03
-          - title: Curvature
+          - title: Fourier Series
             url: /books/math_methods/math_methods04/04
+          - title: Asymptotic Methods
+            url: /books/math_methods/math_methods04/05
+
+      - title: Differential Geometry
+        url: /books/math_methods/math_methods05/math_methods05
+        sections:
+          - title: Manifolds
+            url: /books/math_methods/math_methods05/01
+          - title: Tensors
+            url: /books/math_methods/math_methods05/02
+          - title: Connections and Curvature
+            url: /books/math_methods/math_methods05/03
+          - title: Geodesics
+            url: /books/math_methods/math_methods05/04
+
+      - title: Complex Analysis
+        url: /books/math_methods/math_methods06/math_methods06
+        sections:
+          - title: Complex Functions
+            url: /books/math_methods/math_methods06/01
+          - title: Complex Integration
+            url: /books/math_methods/math_methods06/02
+          - title: Complex Series
+            url: /books/math_methods/math_methods06/03
+          - title: Residue Theory
+            url: /books/math_methods/math_methods06/04
+          - title: Conformal Mapping
+            url: /books/math_methods/math_methods06/05
+
+      - title: Group Theory
+        url: /books/math_methods/math_methods07/math_methods07
+        sections:
+          - title: Groups
+            url: /books/math_methods/math_methods07/01
+          - title: Group Actions
+            url: /books/math_methods/math_methods07/02
+          - title: Group Representations
+            url: /books/math_methods/math_methods07/03
+          - title: Lie Groups
+            url: /books/math_methods/math_methods07/04
+
+      - title: Calculus of Variations
+        url: /books/math_methods/math_methods08/math_methods08
+        sections:
+          - title: Variational Principles
+            url: /books/math_methods/math_methods08/01
+          - title: Euler-Lagrange Theory
+            url: /books/math_methods/math_methods08/02
+          - title: Constraints and Symmetries
+            url: /books/math_methods/math_methods08/03
+          - title: Field Variations
+            url: /books/math_methods/math_methods08/04
+
+      - title: Differential Equations
+        url: /books/math_methods/math_methods09/math_methods09
+        sections:
+          - title: Ordinary Differential Equations
+            url: /books/math_methods/math_methods09/01
+          - title: Series Methods
+            url: /books/math_methods/math_methods09/02
+          - title: Boundary-Value Problems
+            url: /books/math_methods/math_methods09/03
+          - title: Spectral Theory
+            url: /books/math_methods/math_methods09/04
+          - title: Green's Functions
+            url: /books/math_methods/math_methods09/05
+
+      - title: Integral Equations
+        url: /books/math_methods/math_methods10/math_methods10
+        sections:
+          - title: Integral Equations
+            url: /books/math_methods/math_methods10/01
+          - title: Fredholm Theory
+            url: /books/math_methods/math_methods10/02
+          - title: Volterra Theory
+            url: /books/math_methods/math_methods10/03
+          - title: Eigenvalue Problems
+            url: /books/math_methods/math_methods10/04
+
+      - title: Integral Transforms
+        url: /books/math_methods/math_methods11/math_methods11
+        sections:
+          - title: Transform Methods
+            url: /books/math_methods/math_methods11/01
+          - title: Fourier Analysis
+            url: /books/math_methods/math_methods11/02
+          - title: Laplace Transforms
+            url: /books/math_methods/math_methods11/03
+          - title: Convolution
+            url: /books/math_methods/math_methods11/04
+
+      - title: Special Functions
+        url: /books/math_methods/math_methods12/math_methods12
+        sections:
+          - title: Gamma and Beta Functions
+            url: /books/math_methods/math_methods12/01
+          - title: Bessel Functions
+            url: /books/math_methods/math_methods12/02
+          - title: Orthogonal Polynomials
+            url: /books/math_methods/math_methods12/03
+          - title: Hypergeometric Functions
+            url: /books/math_methods/math_methods12/04
 
       - title: Probability Theory
-        url: /books/math_methods/math_methodsX/math_methodsX
+        url: /books/math_methods/math_methods13/math_methods13
         sections:
           - title: Foundations of Probability
-            url: /books/math_methods/math_methodsX/01
+            url: /books/math_methods/math_methods13/01
+          - title: Random Variables
+            url: /books/math_methods/math_methods13/02
+          - title: Probability Distributions
+            url: /books/math_methods/math_methods13/03
+          - title: Limit Theorems
+            url: /books/math_methods/math_methods13/04
+          - title: Stochastic Processes
+            url: /books/math_methods/math_methods13/05
+
+      - title: Statistics
+        url: /books/math_methods/math_methods14/math_methods14
+        sections:
+          - title: Descriptive Statistics
+            url: /books/math_methods/math_methods14/01
+          - title: Inferential Statistics
+            url: /books/math_methods/math_methods14/02
+          - title: Regression Analysis
+            url: /books/math_methods/math_methods14/03
+          - title: Statistical Tests
+            url: /books/math_methods/math_methods14/04
 
   - title: Classical Mechanics
     url: /books/cm/cm
@@ -149,26 +271,18 @@ books:
         sections:
           - title: Configuration Space
             url: /books/post #/books/cm/cm06/01
-          - title: Lagrangian
+          - title: Lagrangian Dynamics
             url: /books/post #/books/cm/cm06/02
-          - title: Euler-Lagrange Dynamics
+          - title: Constraints and Symmetries
             url: /books/post #/books/cm/cm06/03
-          - title: Constraints
-            url: /books/post #/books/cm/cm06/04
-          - title: Symmetries and Conservation Laws
-            url: /books/post #/books/cm/cm06/05
 
       - title: Hamiltonian Mechanics
         url: /books/cm/cm07/cm07
         sections:
           - title: Phase Space
             url: /books/post #/books/cm/cm07/01
-          - title: Hamiltonian
+          - title: Hamiltonian Dynamics
             url: /books/post #/books/cm/cm07/02
-          - title: Hamilton's Equations
-            url: /books/post #/books/cm/cm07/03
-          - title: Poisson Brackets
-            url: /books/post #/books/cm/cm07/04
           - title: Canonical Transformations
             url: /books/post #/books/cm/cm07/05
           - title: Hamilton-Jacobi Theory
@@ -178,22 +292,26 @@ books:
     url: /books/cont_mech/cont_mech
     chapters:
       - title: Solid Mechanics
-        url: /books/cont_mech01/cont_mech01
+        url: /books/cont_mech/cont_mech01/cont_mech01
         sections:
-          - title: Section 1
-            url: /books/cont_mech01/01
+          - title: Stress and Strain
+            url: /books/cont_mech/cont_mech01/01
+          - title: Elasticity
+            url: /books/cont_mech/cont_mech01/02
+          - title: Plasticity
+            url: /books/cont_mech/cont_mech01/03
 
       - title: Fluid Mechanics
-        url: /books/cont_mech02/cont_mech02
+        url: /books/cont_mech/cont_mech02/cont_mech02
         sections:
           - title: Fluid Statics
-            url: /books/cont_mech02/01
+            url: /books/cont_mech/cont_mech02/01
           - title: Fluid Kinematics
-            url: /books/cont_mech02/02
+            url: /books/cont_mech/cont_mech02/02
           - title: Fluid Dynamics
-            url: /books/cont_mech02/03
+            url: /books/cont_mech/cont_mech02/03
           - title: Interfacial Phenomena
-            url: /books/cont_mech02/04
+            url: /books/cont_mech/cont_mech02/04
 
   - title: Thermodynamics and Statistical Mechanics
     url: /books/tdsm/tdsm
@@ -273,38 +391,32 @@ books:
       - title: Geometric Optics
         url: /books/optics/optics01/optics01
         sections:
-          - title: Light Rays
-            url: /books/post
           - title: Reflection and Refraction
-            url: /books/post
+            url: /books/optics/optics01/01
           - title: Optical Systems
-            url: /books/post
-          - title: Optical Instruments
-            url: /books/post
+            url: /books/optics/optics01/02
 
       - title: Physical Optics
         url: /books/optics/optics02/optics02
         sections:
           - title: Light Waves
-            url: /books/post
+            url: /books/optics/optics02/01
           - title: Interference and Diffraction
-            url: /books/post
+            url: /books/optics/optics02/02
           - title: Polarization
-            url: /books/post
-          - title: Optical Phenomena
-            url: /books/post
+            url: /books/optics/optics02/03
 
-      - title: Radiometry
+      - title: Radiometry and Photometry
         url: /books/optics/optics03/optics03
         sections:
-          - title: Section 1
-            url: #
-
-      - title: Photometry
-        url: /books/optics/optics03/optics03
-        sections:
-          - title: Section 1
-            url: #
+          - title: Radiometric Quantities
+            url: /books/optics/optics03/01
+          - title: Photometric Quantities
+            url: /books/optics/optics03/02
+          - title: Radiative Transfer
+            url: /books/optics/optics03/03
+          - title: Optical Measurements
+            url: /books/optics/optics03/04
 
   - title: Relativity
     url: /books/rel/rel
@@ -357,5 +469,11 @@ books:
       - title: Quantum Mechanical Systems
         url: /books/qm/qm03/qm03
         sections:
-          - title: Section 1
+          - title: One-Dimensional Systems
             url: /books/qm/qm03/01
+          - title: Systems with Angular Momentum
+            url: /books/qm/qm03/02
+          - title: Quantum Harmonic Oscillator
+            url: /books/qm/qm03/03
+          - title: Quantum Mechanical Atomic Model
+            url: /books/qm/qm03/04

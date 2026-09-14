@@ -1,6 +1,8 @@
 ---
-title: Differential Geometry
+title: Sequences and Series
 layout: default
 ---
 
-# {{ page.title }}
+# Sequences and Series
+
+Content coming soon...
