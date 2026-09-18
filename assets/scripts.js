@@ -31,7 +31,7 @@ window.MathJax = {
 
 // Script for expandable menu button
 
-const sidebar = document.querySelector(".site__sidebar");
+const sidebar = document.querySelector(".sidebar");
 const menu_button = document.querySelector(".menu-toggle");
 
 menu_button.addEventListener("click", () => {
@@ -60,20 +60,31 @@ function saveTheme(theme) {
     }
 }
 
+function setTheme(theme) {
+    root.style.colorScheme = theme;
+    theme_button.textContent = "◐";
+    saveTheme(theme);
+}
+
 const savedTheme = loadTheme();
 
-if (savedTheme) {
-    root.style.colorScheme = savedTheme;
-    theme_button.textContent = savedTheme === "dark" ? "☀" : "☾";
+if (savedTheme === "dark" || savedTheme === "light") {
+    setTheme(savedTheme);
+} else {
+    const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light";
+
+    setTheme(systemTheme);
 }
 
 theme_button.addEventListener("click", () => {
-    const newTheme =
-        root.style.colorScheme === "dark" ? "light" : "dark";
+    const currentTheme = root.style.colorScheme ||
+        (window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light");
 
-    root.style.colorScheme = newTheme;
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
 
-    theme_button.textContent = newTheme === "dark" ? "☀" : "☾";
-
-    saveTheme(newTheme);
+    setTheme(newTheme);
 });

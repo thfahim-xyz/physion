@@ -5,7 +5,7 @@ layout: default
 
 # Quantum Mechanics
 
-<figure class="figure--center">
+<figure class="figure-center">
     <img src="{{ '/assets/images/qm.jpg' | relative_url }}"
          alt="Northern lights">
 
@@ -47,7 +47,7 @@ Quantum mechanics is the fundamental theory that describes the behavior of matte
 
 ## List of Physical Quantities
 
-<div class="table__container" markdown="1">
+<div class="table-container" markdown="1">
 
 | Description | Common Symbols | Definition | SI Unit |
 |-------------|----------------|------------|---------|

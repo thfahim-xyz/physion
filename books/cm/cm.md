@@ -5,7 +5,7 @@ layout: default
 
 # Classical Mechanics
 
-<figure class="figure--center">
+<figure class="figure-center">
     <img src="{{ '/assets/images/cm.jpg' | relative_url }}"
          alt="Newton's cradle">
 
@@ -47,7 +47,7 @@ Classical mechanics is the branch of physics that studies the motion of macrosco
 
 ## List of Physical Quantities
 
-<div class="table__container" markdown="1">
+<div class="table-container" markdown="1">
 
 | Description          | Common Symbols                    | Definition                                                                 | SI Unit            |
 |----------------------|-----------------------------------|----------------------------------------------------------------------------|--------------------|

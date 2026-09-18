@@ -5,7 +5,7 @@ layout: default
 
 # {{ page.title }}
 
-<figure class="figure--center">
+<figure class="figure-center">
     <img src="{{ '/assets/images/math_methods.jpg' | relative_url }}"
          alt="Leaf patterns">
 

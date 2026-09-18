@@ -5,7 +5,7 @@ layout: default
 
 # Electromagnetism
 
-<figure class="figure--center">
+<figure class="figure-center">
     <img src="{{ '/assets/images/em.jpg' | relative_url }}"
          alt="Lightning">
 
@@ -47,7 +47,7 @@ Electromagnetism is the branch of physics that studies electric and magnetic fie
 
 ## List of Physical Quantities
 
-<div class="table__container" markdown="1">
+<div class="table-container" markdown="1">
 
 | Description                    | Common Symbols    | Definition | SI Unit                        |
 |--------------------------------|-------------------|------------|--------------------------------|

@@ -5,7 +5,7 @@ layout: default
 
 # Continuum Mechanics
 
-<figure class="figure--center">
+<figure class="figure-center">
     <img src="{{ '/assets/images/cont_mech.jpg' | relative_url }}"
          alt="Ocean waves">
 
@@ -47,7 +47,7 @@ Continuum mechanics is the branch of physics that studies the behavior of materi
 
 ## List of Physical Quantities
 
-<div class="table__container" markdown="1">
+<div class="table-container" markdown="1">
 
 | Description         | Common Symbols         | Definition | SI Unit           |
 |---------------------|------------------------|------------|-------------------|

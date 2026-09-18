@@ -1,100 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>{{ page.title }}</title>
-  <meta name="description" content="{{ page.description }}" />
-  <meta name="author" content="T. H. Fahim" />
-
-  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
-  <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
-
-  <script defer src="{{ '/assets/scripts.js' | relative_url }}"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js" id="MathJax-script"></script>
-
-</head>
-
-<body>
-
-  <div class="site__layout">
-    
-    <!-- Sidebar -->
-
-    <aside class="site__sidebar">
-      
-      <!-- Header -->
-
-      <header class="site__header">
-        
-        <div class="site__wordmark">
-          <a href="{{ '/index' | relative_url }}">Physion</a>
-        </div>
-        
-        <p>
-          T. H. Fahim
-          <br>
-          <a href="mailto:thfahim.xyz@gmail.com">thfahim.xyz@gmail.com</a>
-        </p>
-        
-        <div class="header-buttons">
-          <button class="menu-toggle">Menu</button>
-          <button id="theme-toggle">☾</button>
-        </div>
-      
-      </header>
-      
-      <!-- Navigation -->
-
-      <nav class="site__navbar">
-        
-        <hr>
-        
-        <ul>
-          <li><a href="{{ '/library' | relative_url }}">Library</a></li>
-        </ul>
-        
-        <hr>
-        
-        <ul>
-          {% for book in site.data.book_list.books %}
-          <li>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}" />
+    <meta name="author" content="T. H. Fahim" />
+    <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <script defer src="{{ '/assets/scripts.js' | relative_url }}"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js" id="MathJax-script"></script>
+    <script src="https://kit.fontawesome.com/ada6240f39.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <header class="header">
+          <div class="wordmark">
+            <a href="{{ '/index' | relative_url }}">Physion</a>
+          </div>
+          <p class="author">
+            T. H. Fahim
+            <br>
+            <a href="mailto:thfahim.xyz@gmail.com"><i class="fa-regular fa-envelope fa-lg"></i></a>
+            <a href="https://github.com/thfahim-xyz"><i class="fa-brands fa-github fa-lg"></i></a>
+            <a href="https://linkedin.com/in/thfahim"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+            <a href="https://facebook.com/thfahim.xyz"><i class="fa-brands fa-facebook fa-lg"></i></a>
+            <a href="https://instagram.com/thfahim.xyz"><i class="fa-brands fa-instagram fa-lg"></i></a>
+          </p>
+          <div class="header-buttons">
+            <button class="menu-toggle">Menu</button>
+            <button id="theme-toggle">◐</button>
+          </div>
+        </header>
+        <nav class="navbar">
+          <section class="navbar-section">
+            <ul>
+              <li><a href="{{ '/library' | relative_url }}">Library</a></li>
+            </ul>
+          </section>
+          <section class="navbar-section">
+            {% for book in site.data.book_list.books %}
             <a href="{{ book.url | relative_url }}">{{ book.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-        
-        <hr>
-        
-        <ul>
-          <li><a href="{{ '/about' | relative_url }}">About</a></li>
-        </ul>
-        
-        <hr>
-      
-      </nav>
-      
-      <!-- Footer -->
-
-      <footer class="site__footer">
-        
-        <p>&copy; 2026 Physion</p>
-      
-      </footer>
-    
-    </aside>
-    
-    <!-- Content -->
-
-    <main class="site__content">
-      {{ content }}
-    </main>
-
-  </div>
-  
-</body>
-
+            {% endfor %}
+          </section>
+          <section class="navbar-section">
+            <ul>
+              <li><a href="{{ '/about' | relative_url }}">About</a></li>
+            </ul>
+          </section>
+        </nav>
+        <footer class="footer">
+          <p>&copy; 2026 Physion</p>
+        </footer>
+      </aside>
+      <main class="content">
+        {{ content }}
+      </main>
+    </div>
+  </body>
 </html>

@@ -5,7 +5,7 @@ layout: default
 
 # Thermodynamics and Statistical Mechanics
 
-<figure class="figure--center">
+<figure class="figure-center">
     <img src="{{ '/assets/images/tdsm.jpg' | relative_url }}"
          alt="Fire">
 
@@ -47,7 +47,7 @@ Thermodynamics studies heat, work, energy, and the laws governing their transfor
 
 ## List of Physical Quantities
 
-<div class="table__container" markdown="1">
+<div class="table-container" markdown="1">
 
 | Description                    | Common Symbols   | Definition | SI Unit                           |
 |--------------------------------|------------------|------------|-----------------------------------|

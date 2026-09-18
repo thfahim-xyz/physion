@@ -5,7 +5,7 @@ layout: default
 
 # Optics
 
-<figure class="figure--center">
+<figure class="figure-center">
     <img src="{{ '/assets/images/optics.jpg' | relative_url }}"
          alt="Fairy lights">
 
@@ -47,7 +47,7 @@ Optics is the study of light and its interaction with matter. It examines the pr
 
 ## List of Physical Quantities
 
-<div class="table__container" markdown="1">
+<div class="table-container" markdown="1">
 
 | Description               | Common Symbols | Definition | SI Unit        |
 |---------------------------|----------------|------------|----------------|
