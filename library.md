@@ -19,32 +19,22 @@ layout: default
     <a href="{{ book.url | relative_url }}">{{ book.title }}</a>
 </h2>
 
-<table>
-    <thead>
-        <tr>
-            <th>Chapter</th>
-            <th>Sections</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for chapter in book.chapters %}
-            <tr>
-                <td>
-                    <a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a>
-                </td>
-                <td>
-                    <ul>
-                        {% for section in chapter.sections %}
-                            <li>
-                                <a href="{{ section.url | relative_url }}">{{ section.title }}</a>
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </td>
-            </tr>
-        {% endfor %}
-    </tbody>
-</table>
+<div class="cards-container">
+
+{% for chapter in book.chapters %}
+
+<div class="card">
+    <h3><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></h3>
+
+    {% for section in chapter.sections %}
+        <a href="{{ section.url | relative_url }}">{{ section.title }}</a>
+    {% endfor %}
+
+</div>
+
+{% endfor %}
+
+</div>
 
 {% endfor %}
 
@@ -52,25 +42,117 @@ layout: default
 
 ### Books
 
-- [Fundamentals of Physics - David Halliday, Jearl Walker, Robert Resnick](https://en.wikipedia.org/wiki/Fundamentals_of_Physics)
-- [University Physics: With Modern Physics - Hugh Young, Roger Freedman, Francis Sears, Mark Zemansky](https://en.wikipedia.org/wiki/University_Physics)
-- [Mathematical Methods in the Physical Sciences - Mary L. Boas](https://en.wikipedia.org/wiki/Mathematical_Methods_in_the_Physical_Sciences)
-- [Mathematical Methods for Physicists - George B. Arfken, Hans J. Weber, Frank E. Harris](https://books.google.com.bd/books/about/Mathematical_Methods_for_Physicists.html?id=qLFo_Z-PoGIC)
-- [An Introduction to Mechanics - Daniel Kleppner, Robert J. Kolenkow](https://en.wikipedia.org/wiki/An_Introduction_to_Mechanics)
-- [Classical Mechanics - John R. Taylor](https://books.google.com.bd/books/about/Classical_Mechanics.html?id=P1kCtNr-pJsC)
-- [Classical Mechanics - Herbert Goldstein](https://en.wikipedia.org/wiki/Classical_Mechanics_(Goldstein))
-- [An Introduction to Thermal Physics - Daniel V. Schroeder](https://www.google.com.bd/books/edition/An_Introduction_to_Thermal_Physics/M0BgQwAACAAJ)
-- [Thermodynamics and an Introduction to Thermostatistics - Herbert Callen](https://en.wikipedia.org/wiki/Thermodynamics_and_an_Introduction_to_Thermostatistics)
-- [Introduction to Electrodynamics - David J. Griffiths](https://en.wikipedia.org/wiki/Introduction_to_Electrodynamics)
-- [Classical Electrodynamics - John David Jackson](https://en.wikipedia.org/wiki/Classical_Electrodynamics_(book))
-- [Spacetime Physics - John Archibald Wheeler](https://books.google.com.bd/books/about/Spacetime_Physics.html?id=jAN2NQEACAAJ)
-- [Lecture Notes on General Relativity - Sean M. Carroll](https://arxiv.org/pdf/gr-qc/9712019)
-- [A First Course in General Relativity - Bernard F. Schutz](https://books.google.com.bd/books/about/A_First_Course_in_General_Relativity.html?id=V1CGLi58W7wC)
-- [Gravitation - Charles W. Misner, Kip S. Thorne, John Archibald Wheeler](https://en.wikipedia.org/wiki/Gravitation_(book))
-- [Introduction to Quantum Mechanics - David J. Griffiths](https://en.wikipedia.org/wiki/Introduction_to_Quantum_Mechanics_(book))
-- [Modern Quantum Mechanics - J. J. Sakurai, Jim Napolitano](https://en.wikipedia.org/wiki/Modern_Quantum_Mechanics)
+<div class="books-list">
 
-### Courses
+<a class="book-card" href="https://en.wikipedia.org/wiki/Fundamentals_of_Physics">
+    <span class="book-title">Fundamentals of Physics</span>
+    <span class="book-author">David Halliday, Jearl Walker, Robert Resnick</span>
+</a>
+
+<a class="book-card" href="https://en.wikipedia.org/wiki/University_Physics">
+    <span class="book-title">University Physics: With Modern Physics</span>
+    <span class="book-author">Hugh Young, Roger Freedman, Francis Sears, Mark Zemansky</span>
+</a>
+
+<a class="book-card" href="https://en.wikipedia.org/wiki/Mathematical_Methods_in_the_Physical_Sciences">
+    <span class="book-title">Mathematical Methods in the Physical Sciences</span>
+    <span class="book-author">Mary L. Boas</span>
+</a>
+
+<a class="book-card" href="https://books.google.com.bd/books/about/Mathematical_Methods_for_Physicists.html?id=qLFo_Z-PoGIC">
+    <span class="book-title">Mathematical Methods for Physicists</span>
+    <span class="book-author">George B. Arfken, Hans J. Weber, Frank E. Harris</span>
+</a>
+
+<a class="book-card" href="https://en.wikipedia.org/wiki/An_Introduction_to_Mechanics">
+    <span class="book-title">An Introduction to Mechanics</span>
+    <span class="book-author">Daniel Kleppner, Robert J. Kolenkow</span>
+</a>
+
+<a class="book-card" href="https://books.google.com.bd/books/about/Classical_Mechanics.html?id=P1kCtNr-pJsC">
+    <span class="book-title">Classical Mechanics</span>
+    <span class="book-author">John R. Taylor</span>
+</a>
+
+<a class="book-card" href="https://en.wikipedia.org/wiki/Classical_Mechanics_(Goldstein)">
+    <span class="book-title">Classical Mechanics</span>
+    <span class="book-author">Herbert Goldstein</span>
+</a>
+
+<a class="book-card" href="https://www.google.com.bd/books/edition/An_Introduction_to_Thermal_Physics/M0BgQwAACAAJ">
+    <span class="book-title">An Introduction to Thermal Physics</span>
+    <span class="book-author">Daniel V. Schroeder</span>
+</a>
+
+<a class="book-card" href="https://en.wikipedia.org/wiki/Thermodynamics_and_an_Introduction_to_Thermostatistics">
+    <span class="book-title">Thermodynamics and an Introduction to Thermostatistics</span>
+    <span class="book-author">Herbert Callen</span>
+</a>
+
+<a class="book-card" href="https://en.wikipedia.org/wiki/Introduction_to_Electrodynamics">
+    <span class="book-title">Introduction to Electrodynamics</span>
+    <span class="book-author">David J. Griffiths</span>
+</a>
+
+<a class="book-card" href="https://en.wikipedia.org/wiki/Classical_Electrodynamics_(book)">
+    <span class="book-title">Classical Electrodynamics</span>
+    <span class="book-author">John David Jackson</span>
+</a>
+
+<a class="book-card" href="https://books.google.com.bd/books/about/Spacetime_Physics.html?id=jAN2NQEACAAJ">
+    <span class="book-title">Spacetime Physics</span>
+    <span class="book-author">John Archibald Wheeler</span>
+</a>
+
+<a class="book-card" href="https://arxiv.org/pdf/gr-qc/9712019">
+    <span class="book-title">Lecture Notes on General Relativity</span>
+    <span class="book-author">Sean M. Carroll</span>
+</a>
+
+<a class="book-card" href="https://books.google.com.bd/books/about/A_First_Course_in_General_Relativity.html?id=V1CGLi58W7wC">
+    <span class="book-title">A First Course in General Relativity</span>
+    <span class="book-author">Bernard F. Schutz</span>
+</a>
+
+<a class="book-card" href="https://en.wikipedia.org/wiki/Gravitation_(book)">
+    <span class="book-title">Gravitation</span>
+    <span class="book-author">Charles W. Misner, Kip S. Thorne, John Archibald Wheeler</span>
+</a>
+
+<a class="book-card" href="https://en.wikipedia.org/wiki/Introduction_to_Quantum_Mechanics_(book)">
+    <span class="book-title">Introduction to Quantum Mechanics</span>
+    <span class="book-author">David J. Griffiths</span>
+</a>
+
+<a class="book-card" href="https://en.wikipedia.org/wiki/Modern_Quantum_Mechanics">
+    <span class="book-title">Modern Quantum Mechanics</span>
+    <span class="book-author">J. J. Sakurai, Jim Napolitano</span>
+</a>
+
+</div>
+
+### Websites
+
+<a class="pill" href="https://www.khanacademy.org/" target="_blank" rel="noopener">Khan Academy</a>
+<a class="pill" href="https://ocw.mit.edu/" target="_blank" rel="noopener">MIT OpenCourseWare</a>
+<a class="pill" href="https://phet.colorado.edu/" target="_blank" rel="noopener">PhET</a>
+<a class="pill" href="https://orbital-mechanics.space/" target="_blank" rel="noopener">Orbital Mechanics & Astrodynamics</a>
+
+### YouTube Channels and Playlists
+
+<a class="pill" href="https://www.youtube.com/@3blue1brown" target="_blank" rel="noopener">3Blue1Brown</a>
+<a class="pill" href="https://www.youtube.com/@PhysicswithElliot" target="_blank" rel="noopener">Physics with Elliot</a>
+<a class="pill" href="https://www.youtube.com/@quantumsensechannel" target="_blank" rel="noopener">Quantum Sense</a>
+<a class="pill" href="https://www.youtube.com/@AllThingsPhysicsYouTube" target="_blank" rel="noopener">All Things Physics</a>
+<a class="pill" href="https://www.youtube.com/@eigenchris" target="_blank" rel="noopener">eigenchris</a>
+<a class="pill" href="https://www.youtube.com/@pbsspacetime" target="_blank" rel="noopener">PBS Space Time</a>
+<a class="pill" href="https://www.youtube.com/@PhysicsExplainedVideos" target="_blank" rel="noopener">Physics Explained</a>
+<a class="pill" href="https://www.youtube.com/@MinutePhysics" target="_blank" rel="noopener">minutephysics</a>
+<a class="pill" href="https://www.youtube.com/@LookingGlassUniverse" target="_blank" rel="noopener">Looking Glass Universe</a>
+<a class="pill" href="https://www.youtube.com/@physicsgirl/featured" target="_blank" rel="noopener">Physics Girl</a>
+<a class="pill" href="https://www.youtube.com/@veritasium" target="_blank" rel="noopener">Veritasium</a>
+<a class="pill" href="https://www.youtube.com/@crashcourse" target="_blank" rel="noopener">CrashCourse</a>
+<a class="pill" href="https://www.youtube.com/@MichelvanBiezen" target="_blank" rel="noopener">Michel van Biezen</a>
 
 - [Essence of calculus - 3Blue1Brown](https://youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&si=XRi9UxV4iNkCUyxw)
 - [Essence of linear algebra - 3Blue1Brown](https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&si=U3pdWtJhKQ0u3a7I)
@@ -82,13 +164,3 @@ layout: default
 - [Lagrangian Mechanics Sequence - Physics with Elliot](https://youtube.com/playlist?list=PL-IZN8QRUw-xRsoJPtXBlJyWlWrjVEF0x&si=Jix04hZ8oPInsSYr)
 - [Hamiltonian Mechanics Sequence - Physics with Elliot](https://youtube.com/playlist?list=PL-IZN8QRUw-zBECgfYLuDQ3qkWsXWAGhM&si=Od6lwCYj0gIyXWtK)
 - [Physics Mini Lessons - Physics with Elliot](https://youtube.com/playlist?list=PL-IZN8QRUw-ykZ0yIZ-I5jeByyYHmcCcF&si=b23_CSYOVITAnVam)
-
-### Websites
-- [Khan Academy](https://www.khanacademy.org/)
-- [MIT OpenCourseWare](https://ocw.mit.edu/)
-- [PhET](https://phet.colorado.edu/)
-- [Orbital Mechanics & Astrodynamics](https://orbital-mechanics.space/)
-
-### YouTube Channels
-
-[3Blue1Brown](https://www.youtube.com/@3blue1brown) · [Physics with Elliot](https://www.youtube.com/@PhysicswithElliot) · [Quantum Sense](https://www.youtube.com/@quantumsensechannel) · [All Things Physics](https://www.youtube.com/@AllThingsPhysicsYouTube) · [eigenchris](https://www.youtube.com/@eigenchris) · [PBS Space Time](https://www.youtube.com/@pbsspacetime) · [Physics Explained](https://www.youtube.com/@PhysicsExplainedVideos) · [minutephysics](https://www.youtube.com/@MinutePhysics) · [Looking Glass Universe](https://www.youtube.com/@LookingGlassUniverse) · [Physics Girl](https://www.youtube.com/@physicsgirl/featured) · [Veritasium](https://www.youtube.com/@veritasium) · [CrashCourse](https://www.youtube.com/@crashcourse) · [Michel van Biezen](https://www.youtube.com/@MichelvanBiezen)

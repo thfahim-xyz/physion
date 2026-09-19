@@ -18,29 +18,19 @@ Mathematical methods for physics provides the mathematical language and techniqu
 
 ## Table of Contents
 
-<table>
-    <thead>
-        <tr>
-            <th>Chapter</th>
-            <th>Sections</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for chapter in site.data.book_list.books[1].chapters %}
-            <tr>
-                <td>
-                    <a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a>
-                </td>
-                <td>
-                    <ul>
-                        {% for section in chapter.sections %}
-                            <li>
-                                <a href="{{ section.url | relative_url }}">{{ section.title }}</a>
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </td>
-            </tr>
-        {% endfor %}
-    </tbody>
-</table>
+<div class="cards-container">
+
+{% for chapter in site.data.book_list.books[1].chapters %}
+
+<div class="card">
+    <h3><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></h3>
+
+    {% for section in chapter.sections %}
+        <a href="{{ section.url | relative_url }}">{{ section.title }}</a>
+    {% endfor %}
+
+</div>
+
+{% endfor %}
+
+</div>
