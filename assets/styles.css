@@ -52,9 +52,9 @@
     --h3-bg: light-dark(rgba(167, 139, 250, 0.2), rgba(167, 139, 250, 0.1));
     --h4-bg: light-dark(rgba(236, 72, 153, 0.2), rgba(236, 72, 153, 0.1));
 
-    --fonts-sans: "Inter", Arial, ui-sans-serif, sans-serif;
-    --fonts-serif: "Playfair Display", Georgia, ui-serif, serif;
-    --fonts-mono: "JetBrains Mono", Courier New, ui-monospace, monospace;
+    --font-sans: "Inter", Arial, ui-sans-serif, sans-serif;
+    --font-serif: "Playfair Display", Georgia, ui-serif, serif;
+    --font-mono: "JetBrains Mono", Courier New, ui-monospace, monospace;
 
     --pill-radius: 9999px;
     
@@ -75,7 +75,7 @@ body {
     padding: 0;
     height: 100%;
 
-    font-family: var(--fonts-sans);
+    font-family: var(--font-sans);
     font-size: 1rem; 
     line-height: 1.5;
 

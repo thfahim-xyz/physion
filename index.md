@@ -25,8 +25,9 @@ layout: default
 
   .hero {
     text-align: center;
-    margin: 0 auto;
+    margin: auto;
     width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,13 +38,16 @@ layout: default
     display: inline-block;
     border: none;
     background: none;
-    font-size: 3.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 3.3rem;
   }
 
   .hero-text {
     font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+  }
+
+  .wordmark {
+    margin: 0;
+    padding: 0;
   }
 </style>
 
@@ -54,5 +58,3 @@ layout: default
 
     <a href="{{ '/library' | relative_url }}" class="btn-primary">Explore</a>
 </section>
-
-<p style="text-align: center; font-size: 12px; color: #777777; margin-top: 20px; font-family: sans-serif;">This site is under development</p>
