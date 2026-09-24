@@ -1,6 +1,5 @@
 ---
 title: Quantum Mechanics
-layout: default
 ---
 
 # Quantum Mechanics

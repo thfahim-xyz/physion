@@ -1,6 +1,5 @@
 ---
 title: Integral Transforms
-layout: default
 ---
 
 # Integral Transforms

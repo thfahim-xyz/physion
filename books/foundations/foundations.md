@@ -1,6 +1,5 @@
 ---
 title: Foundations of Physics
-layout: default
 ---
 
 # Foundations of Physics

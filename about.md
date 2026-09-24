@@ -1,6 +1,5 @@
 ---
 title: About Physion
-layout: default
 ---
 
 # About This Site

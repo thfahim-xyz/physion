@@ -1,6 +1,5 @@
 ---
 title: Mathematical Methods for Physics
-layout: default
 ---
 
 # {{ page.title }}

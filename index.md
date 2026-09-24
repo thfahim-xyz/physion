@@ -1,6 +1,5 @@
 ---
 title: Physion
-layout: default
 ---
 
 <style>

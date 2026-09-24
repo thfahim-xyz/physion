@@ -1,6 +1,5 @@
 ---
 title: Special Relativity
-layout: default
 ---
 
 # Special Relativity

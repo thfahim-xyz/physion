@@ -1,6 +1,5 @@
 ---
 title: Thermodynamics and Statistical Mechanics
-layout: default
 ---
 
 # Thermodynamics and Statistical Mechanics

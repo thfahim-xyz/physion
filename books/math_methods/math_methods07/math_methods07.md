@@ -1,6 +1,5 @@
 ---
 title: Group Theory
-layout: default
 ---
 
 # Group Theory

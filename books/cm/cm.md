@@ -1,6 +1,5 @@
 ---
 title: Classical Mechanics
-layout: default
 ---
 
 # Classical Mechanics

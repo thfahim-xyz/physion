@@ -1,6 +1,5 @@
 ---
 title: Introduction
-layout: default
 ---
 
 # {{ page.title }}

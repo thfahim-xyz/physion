@@ -1,6 +1,5 @@
 ---
 title: Electromagnetism
-layout: default
 ---
 
 # Electromagnetism

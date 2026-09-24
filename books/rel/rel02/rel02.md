@@ -1,6 +1,5 @@
 ---
 title: General Relativity
-layout: default
 ---
 
 # General Relativity

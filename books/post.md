@@ -1,6 +1,5 @@
 ---
 title: Coming Soon...
-layout: default
 ---
 
 # {{ page.title }}

@@ -1,6 +1,5 @@
 ---
 title: Relativity
-layout: default
 ---
 
 # Relativity

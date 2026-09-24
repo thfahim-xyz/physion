@@ -1,6 +1,5 @@
 ---
 title: Library
-layout: default
 ---
 
 <h1>Library</h1>

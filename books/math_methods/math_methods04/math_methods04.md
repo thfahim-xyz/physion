@@ -1,6 +1,5 @@
 ---
 title: Sequences and Series
-layout: default
 ---
 
 # Sequences and Series

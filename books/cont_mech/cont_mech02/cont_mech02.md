@@ -1,6 +1,5 @@
 ---
 title: Fluid Mechanics
-layout: default
 ---
 
 # Fluid Mechanics

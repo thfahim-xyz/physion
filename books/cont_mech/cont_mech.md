@@ -1,6 +1,5 @@
 ---
 title: Continuum Mechanics
-layout: default
 ---
 
 # Continuum Mechanics

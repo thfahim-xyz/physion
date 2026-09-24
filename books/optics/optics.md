@@ -1,6 +1,5 @@
 ---
 title: Optics
-layout: default
 ---
 
 # Optics

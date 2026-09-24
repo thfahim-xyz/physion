@@ -1,6 +1,5 @@
 ---
 title: Physical Quantities and Measurement
-layout: default
 ---
 
 # {{ page.title }}

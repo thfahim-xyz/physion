@@ -1,6 +1,5 @@
 ---
 title: Complex Analysis
-layout: default
 ---
 
 # Complex Analysis
