@@ -466,13 +466,14 @@ blockquote cite {
 .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
+    gap: 1.5rem;
     align-items: stretch;
-    margin: 1rem 0.5rem;
+    margin: 1.5rem 0.5rem;
 }
 
 .card {
     display: inline-block;
+    min-width: 50%;
     width: auto;
     padding: 0;
     margin: 0;
@@ -519,6 +520,7 @@ blockquote cite {
         
         a {
             font-weight: 700;
+            text-align: center;
         }
     }
 }
@@ -653,6 +655,10 @@ blockquote cite {
 
     main {
         margin-top: 0;
+    }
+
+    h2, h3, h4, table, blockquote, .card, .book-card, .figure-center img {
+        border-radius: 0;
     }
 
     mjx-container {
