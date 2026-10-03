@@ -23,8 +23,8 @@
 
     /* CUSTOM COLORS */
 
-    --accent-blue: #0073ff;
-    --light-blue-2: #1692ff;
+    --accent-blue: #2563eb;
+    --accent-highlight: light-dark(#1e3a8a, #60a5fa);
 
     --blue: #1d4ed8;
     --light-blue: #93c5fd;
@@ -48,15 +48,11 @@
     --h3-text: light-dark(var(--purple), var(--light-purple));
     --h4-text: light-dark(var(--pink), var(--light-pink));
 
-    --h2-bg: light-dark(rgba(59, 130, 246, 0.2), rgba(59, 130, 246, 0.1));
-    --h3-bg: light-dark(rgba(167, 139, 250, 0.2), rgba(167, 139, 250, 0.1));
-    --h4-bg: light-dark(rgba(236, 72, 153, 0.2), rgba(236, 72, 153, 0.1));
-
     --font-sans: "Inter", Arial, ui-sans-serif, sans-serif;
     --font-serif: "Playfair Display", Georgia, ui-serif, serif;
     --font-mono: "JetBrains Mono", Courier New, ui-monospace, monospace;
 
-    --pill-radius: 9999px;
+    --pill-radius: 999px;
     
 }
 
@@ -192,6 +188,7 @@ body {
     margin-top: auto;
     align-items: center;
     text-align: center;
+    font-size: 0.875rem;
 }
 
 /* MATHJAX */
@@ -210,9 +207,6 @@ mjx-container[display="true"] {
 /* HEADINGS */
 
 h1, h2, h3 {
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
-    margin-bottom: 0.5rem;
     line-height: 1.2;
     font-weight: 700;
 
@@ -227,7 +221,15 @@ h1, h2, h3 {
     }
 }
 
+h2, h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+
 h1 {
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
     font-size: 3rem;
     border-bottom: 1px solid var(--border);
 
@@ -236,43 +238,27 @@ h1 {
 }
 
 h2 {
-    padding: 9px 20px;
-    font-size: 1.5rem;
-    border-radius: 2.5px;
+    font-size: 2rem;
 
     color: var(--h2-text);
-    border-left: 3px solid var(--h2-text);
-    background: var(--h2-bg);
-
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--h2-text);
 }
 
 h3 {
-    padding: 10px 15px;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     width: fit-content;
-    border-radius: 2.5px;
 
     color: var(--h3-text);
-    border-bottom: 2px solid var(--h3-text);
-    background: var(--h3-bg);
-
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--h3-text);
 }
 
 h4 {
+    padding: 0.5rem 1rem;
     display: inline-block;
-    padding: 9px;
     font-size: 1.15rem;
 
     color: var(--h4-text);
-    background: var(--h4-bg);
-    border-radius: 2.5px;
-    
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    border-left: 3px solid var(--h4-text);
 }
 
 /* LISTS */
@@ -296,6 +282,7 @@ table {
     border: 1px solid var(--border);
     border-radius: 5px;
     overflow: hidden;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 6px -1px rgba(0, 0, 0, 0.1); 
 }
 
 th, td {
@@ -331,7 +318,7 @@ a {
 }
 
 a:hover {
-    color: var(--light-blue-2);
+    color: var(--accent-highlight);
     text-decoration: underline;
 }
 
@@ -404,20 +391,20 @@ blockquote cite {
 /* PRIMARY BUTTON */
 
 .btn-primary {
-    background: none;
-    border: 1px solid var(--border);
-    color: var(--text-primary);
+    background: var(--accent-blue);
+    border: 1px solid var(--accent-blue);
+    color: var(--background);
     padding: 0.5rem 1rem;
     border-radius: var(--pill-radius);
     cursor: pointer;
     text-decoration: none;
-    transition: background 0.2s ease, color 0.2s ease;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 .btn-primary:hover {
-    background-color: var(--accent-blue);
+    background-color: var(--accent-highlight);
+    border-color: var(--accent-highlight);
     color: var(--background);
-    border-color: var(--accent-blue);
     text-decoration: none;
 }
 
@@ -449,7 +436,8 @@ blockquote cite {
         display: block;
         width: 100%;
         height: auto;
-        border-radius: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 6px -1px rgba(0, 0, 0, 0.1); 
     }
 
     figcaption {
@@ -477,9 +465,10 @@ blockquote cite {
     width: auto;
     padding: 0;
     margin: 0;
-    border-radius: 10px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
     background-color: var(--surface);
-    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 
     li {
@@ -566,7 +555,8 @@ blockquote cite {
     margin: 0.1rem;
 
     border: 1px solid var(--border);
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 
     background: var(--surface);
     color: var(--text-primary);
@@ -694,7 +684,7 @@ blockquote cite {
 
 .menu-toggle:hover {
     background-color: var(--highlight);
-    color: var(--light-blue-2);
+    color: var(--accent-highlight);
 }
 
 .menu-toggle.active {

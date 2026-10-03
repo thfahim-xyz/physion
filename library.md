@@ -136,6 +136,7 @@ title: Library
 <a class="pill" href="https://ocw.mit.edu/" target="_blank" rel="noopener">MIT OpenCourseWare</a>
 <a class="pill" href="https://phet.colorado.edu/" target="_blank" rel="noopener">PhET</a>
 <a class="pill" href="https://orbital-mechanics.space/" target="_blank" rel="noopener">Orbital Mechanics & Astrodynamics</a>
+<a class="pill" href="https://zingale.github.io/computational_astrophysics/" target="_blank" rel="noopener">Computational Astrophysics</a>
 
 ### YouTube Channels and Playlists
 
