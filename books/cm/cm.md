@@ -46,7 +46,7 @@ Classical mechanics is the branch of physics that studies the motion of macrosco
 | Mass                 | $ m $                             | $ 0 \leq m \leq \infty $                                                   | kg                 |
 | Position Vector      | $ \mathbf{r} $                    | $ \mathbf{r} \in \mathbb{R}^3 $                                            | m                  |
 | Displacement         | $ \Delta \mathbf{r}, \mathbf{s} $ | $ \Delta \mathbf{r} = \int \mathrm{d} \mathbf{r} $                         | m                  |
-| Distance             | $ s $                             | $ s = \int \mathrm{d} s $                                                  | m                  |
+| Distance             | $ s $                             | $ s = \int \Vert \dot{\mathbf{r}} \Vert \, \mathrm{d} t $                                                  | m                  |
 | Velocity             | $ \mathbf{v} $                    | $ \mathbf{v} = \dot{\mathbf{r}} $                                          | m s<sup>-1</sup>   |
 | Speed                | $ v $                             | $ v = \Vert \mathbf{v} \Vert $                                             | m s<sup>-1</sup>   |
 | Acceleration         | $ \mathbf{a} $                    | $ \mathbf{a} = \dot{\mathbf{v}} $                                          | m s<sup>-2</sup>   |
