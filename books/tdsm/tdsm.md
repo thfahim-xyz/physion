@@ -19,7 +19,7 @@ Thermodynamics studies heat, work, energy, and the laws governing their transfor
 
 <div class="cards-container">
 
-{% for chapter in site.data.book_list.books[4].chapters %}
+{% for chapter in site.data.book_list.books[3].chapters %}
 
 <div class="card">
     <h3><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></h3>

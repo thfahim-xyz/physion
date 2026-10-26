@@ -19,7 +19,7 @@ Electromagnetism is the branch of physics that studies electric and magnetic fie
 
 <div class="cards-container">
 
-{% for chapter in site.data.book_list.books[5].chapters %}
+{% for chapter in site.data.book_list.books[4].chapters %}
 
 <div class="card">
     <h3><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></h3>

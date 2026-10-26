@@ -1,5 +1,5 @@
 ---
-title: Physion
+title: Physis
 ---
 
 <style>
@@ -125,7 +125,7 @@ title: Physion
 
 
 <section class="hero">
-    <h1 class="wordmark"><a href="{{ '/index' | relative_url }}">Physion</a></h1>
+    <h1 class="wordmark"><a href="{{ '/index' | relative_url }}">Physis</a></h1>
 
     <p class="hero-text">A concise guide to physics</p>
 

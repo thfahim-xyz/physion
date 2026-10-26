@@ -19,7 +19,7 @@ Classical mechanics is the branch of physics that studies the motion of macrosco
 
 <div class="cards-container">
 
-{% for chapter in site.data.book_list.books[2].chapters %}
+{% for chapter in site.data.book_list.books[1].chapters %}
 
 <div class="card">
     <h3><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></h3>

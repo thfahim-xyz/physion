@@ -19,7 +19,7 @@ Continuum mechanics is the branch of physics that studies the behavior of materi
 
 <div class="cards-container">
 
-{% for chapter in site.data.book_list.books[3].chapters %}
+{% for chapter in site.data.book_list.books[2].chapters %}
 
 <div class="card">
     <h3><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></h3>

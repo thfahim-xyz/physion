@@ -1,26 +1,5 @@
 books:
-  - title: Foundations of Physics
-    url: /books/foundations/foundations
-    chapters:
-      - title: Introduction
-        url: /books/foundations/foundations01/foundations01
-        sections:
-          - title: Science
-            url: /books/foundations/foundations01/01
-          - title: Physics
-            url: /books/foundations/foundations01/02
-        
-      - title: Physical Quantities and Measurement
-        url: /books/foundations/foundations02/foundations02
-        sections:
-          - title: Physical Quantities
-            url: /books/foundations/foundations02/01
-          - title: Units and Dimensional Analysis
-            url: /books/foundations/foundations02/02
-          - title: Experimental Uncertainty
-            url: /books/foundations/foundations02/03
-
-  - title: Mathematical Methods for Physics
+  - title: Mathematical Methods
     url: /books/math_methods/math_methods
     chapters:
       - title: Single-Variable Calculus
@@ -210,83 +189,97 @@ books:
   - title: Classical Mechanics
     url: /books/cm/cm
     chapters:
-      - title: Particle Mechanics
+      - title: Fundamentals of Physics
         url: /books/cm/cm01/cm01
         sections:
-          - title: Kinematic Quantities
+          - title: Science
             url: /books/cm/cm01/01
-          - title: Dynamic Quantities
+          - title: Physics
             url: /books/cm/cm01/02
-          - title: Principles of Dynamics
+          - title: Physical Quantities
             url: /books/cm/cm01/03
-          - title: Particle Kinematics
+          - title: Units and Dimensional Analysis
             url: /books/cm/cm01/04
-          - title: Particle Dynamics
+          - title: Experimental Uncertainty
             url: /books/cm/cm01/05
 
-      - title: Systems of Particles
+      - title: Particle Mechanics
         url: /books/cm/cm02/cm02
         sections:
-          - title: Kinematics of Systems
+          - title: Kinematic Quantities
             url: /books/cm/cm02/01
-          - title: Dynamics of Systems
+          - title: Dynamic Quantities
             url: /books/cm/cm02/02
-          - title: Two-Body Systems
+          - title: Principles of Dynamics
             url: /books/cm/cm02/03
-      
-      - title: Rigid Bodies
+          - title: Particle Kinematics
+            url: /books/cm/cm02/04
+          - title: Particle Dynamics
+            url: /books/cm/cm02/05
+
+      - title: Systems of Particles
         url: /books/cm/cm03/cm03
         sections:
-          - title: Rigid Body Kinematics
+          - title: Kinematics of Systems
             url: /books/cm/cm03/01
-          - title: Rigid Body Dynamics
+          - title: Dynamics of Systems
             url: /books/cm/cm03/02
-          - title: General Rotations
+          - title: Two-Body Systems
             url: /books/cm/cm03/03
-
-      - title: Central Force Dynamics
+      
+      - title: Rigid Bodies
         url: /books/cm/cm04/cm04
         sections:
-          - title: Central Force Motion
+          - title: Rigid Body Kinematics
             url: /books/cm/cm04/01
-          - title: Keplerian Motion
+          - title: Rigid Body Dynamics
             url: /books/cm/cm04/02
-          - title: Two-Body Problem
+          - title: General Rotations
             url: /books/cm/cm04/03
-          - title: Gravitation
-            url: /books/cm/cm04/04
-          - title: Orbital Mechanics
-            url: /books/cm/cm04/05
 
-      - title: Oscillations and Waves
+      - title: Central Force Dynamics
         url: /books/cm/cm05/cm05
         sections:
-          - title: Oscillations
+          - title: Central Force Motion
             url: /books/cm/cm05/01
-          - title: Waves
+          - title: Keplerian Motion
             url: /books/cm/cm05/02
+          - title: Two-Body Problem
+            url: /books/cm/cm05/03
+          - title: Gravitation
+            url: /books/cm/cm05/04
+          - title: Orbital Mechanics
+            url: /books/cm/cm05/05
 
-      - title: Lagrangian Mechanics
+      - title: Oscillations and Waves
         url: /books/cm/cm06/cm06
         sections:
-          - title: Configuration Space
-            url: /books/post #/books/cm/cm06/01
-          - title: Lagrangian Dynamics
-            url: /books/post #/books/cm/cm06/02
-          - title: Constraints and Symmetries
-            url: /books/post #/books/cm/cm06/03
+          - title: Oscillations
+            url: /books/cm/cm06/01
+          - title: Waves
+            url: /books/cm/cm06/02
 
-      - title: Hamiltonian Mechanics
+      - title: Lagrangian Mechanics
         url: /books/cm/cm07/cm07
         sections:
-          - title: Phase Space
+          - title: Configuration Space
             url: /books/post #/books/cm/cm07/01
-          - title: Hamiltonian Dynamics
+          - title: Lagrangian Dynamics
             url: /books/post #/books/cm/cm07/02
+          - title: Constraints and Symmetries
+            url: /books/post #/books/cm/cm07/03
+
+      - title: Hamiltonian Mechanics
+        url: /books/cm/cm08/cm08
+        sections:
+          - title: Phase Space
+            url: /books/post #/books/cm/cm08/01
+          - title: Hamiltonian Dynamics
+            url: /books/post #/books/cm/cm08/02
           - title: Canonical Transformations
-            url: /books/post #/books/cm/cm07/05
+            url: /books/post #/books/cm/cm08/03
           - title: Hamilton-Jacobi Theory
-            url: /books/post #/books/cm/cm07/06
+            url: /books/post #/books/cm/cm08/04
 
   - title: Continuum Mechanics
     url: /books/cont_mech/cont_mech

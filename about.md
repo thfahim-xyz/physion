@@ -1,10 +1,10 @@
 ---
-title: About Physion
+title: About Physis
 ---
 
 # About This Site
 
-Physion is a personal project built around a simple idea: to understand physics deeply; not just its equations, but also the ideas, intuition, and structure behind them.
+Physis is a personal project built around a simple idea: to understand physics deeply; not just its equations, but also the ideas, intuition, and structure behind them.
 
 It is a collection of notes shaped by curiosity, reasoning, and a desire to understand how nature works.
 

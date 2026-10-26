@@ -1,8 +1,8 @@
-# Physion
+# Physis
 
 A free and open physics learning website focused on clarity, intuition, and mathematical understanding.
 
-Physion is a long-term project aiming to organize physics into a structured, interconnected, and accessible knowledge base; from foundational concepts to advanced theories.
+Physis is a long-term project aiming to organize physics into a structured, interconnected, and accessible knowledge base; from foundational concepts to advanced theories.
 
 ## Topics Covered
 
@@ -42,7 +42,7 @@ Physion is a long-term project aiming to organize physics into a structured, int
 
 ## Project Status
 
-Physion is currently under active development.
+Physis is currently under active development.
 Some sections may be incomplete or marked as coming soon.
 
 ## Philosophy

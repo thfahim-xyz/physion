@@ -19,7 +19,7 @@ Optics is the study of light and its interaction with matter. It examines the pr
 
 <div class="cards-container">
 
-{% for chapter in site.data.book_list.books[6].chapters %}
+{% for chapter in site.data.book_list.books[5].chapters %}
 
 <div class="card">
     <h3><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></h3>

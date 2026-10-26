@@ -19,7 +19,7 @@ Quantum mechanics is the fundamental theory that describes the behavior of matte
 
 <div class="cards-container">
 
-{% for chapter in site.data.book_list.books[8].chapters %}
+{% for chapter in site.data.book_list.books[7].chapters %}
 
 <div class="card">
     <h3><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></h3>
