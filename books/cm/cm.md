@@ -5,7 +5,7 @@ title: Classical Mechanics
 # Classical Mechanics
 
 <figure class="figure-center">
-    <img src="{{ '/assets/images/cm.jpg' | relative_url }}"
+    <img src="{{ '/assets/images/cm.webp' | relative_url }}"
          alt="Newton's cradle">
 
     <figcaption>
@@ -39,14 +39,14 @@ Classical mechanics is the branch of physics that studies the motion of macrosco
 <div class="table-container" markdown="1">
 
 | Description          | Common Symbols                    | Definition                                                                 | SI Unit            |
-|----------------------|-----------------------------------|----------------------------------------------------------------------------|--------------------|
-| Time                 | $ t $                             | $ 0 \leq t \leq \infty $                                                   | s                  |
-| Linear Coordinates   | $ x, y, z  $                      | $ - \infty \leq x \leq \infty $                                            | m                  |
-| Angular Coordinates  | $ \theta, \varphi, \alpha $       | $ 0 \leq \theta \leq 2 \pi \; $ or $ \; 0 \leq \theta \leq \pi $           | rad                |
-| Mass                 | $ m $                             | $ 0 \leq m \leq \infty $                                                   | kg                 |
+|----------------------|:---------------------------------:|----------------------------------------------------------------------------|--------------------|
+| Time                 | $ t $                             | $ t \in \mathbb{R} $                                                   | s                  |
+| Linear Coordinates   | $ x, y, z  $                      | $  $                                            | m                  |
+| Angular Coordinates  | $ \theta, \varphi, \alpha $       | $  $           | rad                |
+| Mass                 | $ m $                             | $  $                                                   | kg                 |
 | Position Vector      | $ \mathbf{r} $                    | $ \mathbf{r} \in \mathbb{R}^3 $                                            | m                  |
 | Displacement         | $ \Delta \mathbf{r}, \mathbf{s} $ | $ \Delta \mathbf{r} = \int \mathrm{d} \mathbf{r} $                         | m                  |
-| Distance             | $ s $                             | $ s = \int \Vert \dot{\mathbf{r}} \Vert \, \mathrm{d} t $                                                  | m                  |
+| Distance             | $ s $                             | $ s = \int \Vert \dot{\mathbf{r}} \Vert \, \mathrm{d} t $                  | m                  |
 | Velocity             | $ \mathbf{v} $                    | $ \mathbf{v} = \dot{\mathbf{r}} $                                          | m s<sup>-1</sup>   |
 | Speed                | $ v $                             | $ v = \Vert \mathbf{v} \Vert $                                             | m s<sup>-1</sup>   |
 | Acceleration         | $ \mathbf{a} $                    | $ \mathbf{a} = \dot{\mathbf{v}} $                                          | m s<sup>-2</sup>   |
@@ -76,5 +76,25 @@ Classical mechanics is the branch of physics that studies the motion of macrosco
 | Phase Velocity       | $ \mathbf{v}_p $                  | $ \mathbf{v}_p = \dfrac{\omega}{k^2} \mathbf{k} $                          | m s<sup>-1</sup>   |
 | Group Velocity       | $ \mathbf{v}_g $                  | $ \mathbf {v}\_g = \nabla_{\mathbf{k}} \, \omega $                         | m s<sup>-1</sup>   |
 | Path Length          | $ s $                             | $ s = \int v_p \, \mathrm{d} t $                                           | m                  |
+| Mass Density         | $ \rho $                          | $  $                                                                       | kg m<sup>-3</sup>  |
+| Normal Stress        | $ \sigma $                        | $  $                                                                       |                    |
+| Pressure             | $ P $                             | $  $                                                                       |                    |
+| Shear Stress         | $ \tau $                          | $  $                                                                       |                    |
+| Normal Strain        | $ \varepsilon $                   | $  $                                                                       |                    |
+| Volumetric Strain    | $ \delta $                        | $  $                                                                       |                    |
+| Shear Strain         | $ \gamma $                        | $  $                                                                       |                    |
+| Young's Modulus      | $ Y $                             | $  $                                                                       |                    |
+| Bulk Modulus         | $ B $                             | $  $                                                                       |                    |
+| Shear Modulus        | $ G $                             | $  $                                                                       |                    |
+| Poisson's Ratio      | $ \nu $                           | $  $                                                                       |                    |
+| Relative Density     | $ R.D $                           | $  $                                                                       |                    |
+| Surface Tension      | $ \gamma $                        | $  $                                                                       |                    |
+| Vorticity            | $ \boldsymbol \omega $            | $  $                                                                       |                    |
+| Velocity Potential   | $ \phi $                          | $  $                                                                       |                    |
+| Mass Flow Rate       | $ q_m $                           | $  $                                                                       |                    |
+| Volume Flow Rate     | $ q_V $                           | $  $                                                                       |                    |
+| Kinematic Viscosity  | $ \nu $                           | $  $                                                                       |                    |
+| Dynamic Viscosity    | $ \mu $                           | $  $                                                                       |                    |
+| Reynolds Number      | $ \mathrm{Re} $                   | $  $                                                                       |                    |
 
 </div>

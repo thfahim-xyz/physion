@@ -5,7 +5,7 @@ title: Mathematical Methods
 # {{ page.title }}
 
 <figure class="figure-center">
-    <img src="{{ '/assets/images/math_methods.jpg' | relative_url }}"
+    <img src="{{ '/assets/images/math_methods.webp' | relative_url }}"
          alt="Leaf patterns">
 
     <figcaption>

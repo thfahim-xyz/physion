@@ -5,7 +5,7 @@ title: Thermodynamics and Statistical Mechanics
 # Thermodynamics and Statistical Mechanics
 
 <figure class="figure-center">
-    <img src="{{ '/assets/images/tdsm.jpg' | relative_url }}"
+    <img src="{{ '/assets/images/tdsm.webp' | relative_url }}"
          alt="Fire">
 
     <figcaption>
@@ -19,7 +19,7 @@ Thermodynamics studies heat, work, energy, and the laws governing their transfor
 
 <div class="cards-container">
 
-{% for chapter in site.data.book_list.books[3].chapters %}
+{% for chapter in site.data.book_list.books[2].chapters %}
 
 <div class="card">
     <h3><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></h3>
@@ -40,19 +40,19 @@ Thermodynamics studies heat, work, energy, and the laws governing their transfor
 
 | Description                    | Common Symbols   | Definition | SI Unit                           |
 |--------------------------------|------------------|------------|-----------------------------------|
-| Heat                           | $ Q $            | $  $       | J                                 |
-| Work                           | $ W  $           | $  $       | J                                 |
+| Heat                           | $ Q $            | $ Q_{\mathrm{rev}} = \int T \, \mathrm d S $       | J                                 |
+| Work                           | $ W  $           | $ W = \int P \, \mathrm d V $       | J                                 |
 | Temperature                    | $ T $            | $  $       | K                                 |
-| Entropy                        | $ S $            | $  $       | J K<sup>-1</sup>                  |
+| Entropy                        | $ S $            | $ \Delta S = \int \dfrac{\delta Q_{\mathrm{rev}}}{T} $       | J K<sup>-1</sup>                  |
 | Pressure                       | $ P $            | $  $       | Pa                                |
 | Volume                         | $ V $            | $  $       | m<sup>-1</sup>                    |
 | Particle Number                | $ N $            | $  $       | -                                 |
-| Amount of Substance            | $ n $            | $  $       | mol                               |
+| Amount of Substance            | $ n $            | $ n = \dfrac{N}{N_A} $       | mol                               |
 | Chemical Potential             | $ \mu $          | $  $       | J                                 |
-| Internal Energy                | $ U $            | $  $       | J                                 |
-| Enthalpy                       | $ H $            | $  $       | J                                 |
-| Helmholtz Free Energy          | $ F, A $         | $  $       | J                                 |
-| Gibbs Free Energy              | $ G $            | $  $       | J                                 |
+| Internal Energy                | $ U $            | $ U(S, V, N) = TS - PV + \mu N $       | J                                 |
+| Enthalpy                       | $ H $            | $ H(S, P, N) = U + PV $       | J                                 |
+| Helmholtz Free Energy          | $ F, A $         | $ F(T, V, N) = U - TS $       | J                                 |
+| Gibbs Free Energy              | $ G $            | $ G(P, T, N) = H - TS = U + PV - TS $       | J                                 |
 | Heat Capacity                  | $ C $            | $  $       | J K<sup>-1</sup>                  |
 | Molar Heat Capacity            | $ C_m $          | $  $       | J K<sup>-1</sup> mol<sup>-1</sup> |
 | Specific Heat Capacity         | $ c $            | $  $       | J K<sup>-1</sup> kg<sup>-1</sup>  |

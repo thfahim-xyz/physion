@@ -5,7 +5,7 @@ title: Quantum Mechanics
 # Quantum Mechanics
 
 <figure class="figure-center">
-    <img src="{{ '/assets/images/qm.jpg' | relative_url }}"
+    <img src="{{ '/assets/images/qm.webp' | relative_url }}"
          alt="Northern lights">
 
     <figcaption>
@@ -19,7 +19,7 @@ Quantum mechanics is the fundamental theory that describes the behavior of matte
 
 <div class="cards-container">
 
-{% for chapter in site.data.book_list.books[7].chapters %}
+{% for chapter in site.data.book_list.books[5].chapters %}
 
 <div class="card">
     <h3><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></h3>

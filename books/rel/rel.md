@@ -5,7 +5,7 @@ title: Relativity
 # Relativity
 
 <figure class="figure-center">
-    <img src="{{ '/assets/images/rel.jpg' | relative_url }}"
+    <img src="{{ '/assets/images/rel.webp' | relative_url }}"
          alt="Black hole">
 
     <figcaption>
@@ -19,7 +19,7 @@ Relativity is the theory that describes the nature of space, time, motion, and g
 
 <div class="cards-container">
 
-{% for chapter in site.data.book_list.books[6].chapters %}
+{% for chapter in site.data.book_list.books[4].chapters %}
 
 <div class="card">
     <h3><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></h3>

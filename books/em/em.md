@@ -5,7 +5,7 @@ title: Electromagnetism
 # Electromagnetism
 
 <figure class="figure-center">
-    <img src="{{ '/assets/images/em.jpg' | relative_url }}"
+    <img src="{{ '/assets/images/em.webp' | relative_url }}"
          alt="Lightning">
 
     <figcaption>
@@ -19,7 +19,7 @@ Electromagnetism is the branch of physics that studies electric and magnetic fie
 
 <div class="cards-container">
 
-{% for chapter in site.data.book_list.books[4].chapters %}
+{% for chapter in site.data.book_list.books[3].chapters %}
 
 <div class="card">
     <h3><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></h3>
@@ -79,5 +79,11 @@ Electromagnetism is the branch of physics that studies electric and magnetic fie
 | Electrical Resistivity         | $ \rho $          | $  $       | $\Omega$ m                     |
 | Electrical Conductance         | $ G $             | $  $       | S                              |
 | Electrical Conductivity        | $ \sigma $        | $  $       | S m<sup>-1</sup>               |
+| Refractive Index          | $ n $          | $  $       | -              |
+| Relative Refractive Index | $ n_{ba} $     | $  $       | -              |
+| Magnification             | $ m $          | $  $       | -              |
+| Optical Power             | $ P $          | $  $       | m<sup>-1</sup> |
+| Grating Constant          | $ N $          | $  $       | m<sup>-1</sup> |
+| Irradiance                | $ I $          | $  $       |                |
 
 </div>

@@ -281,30 +281,27 @@ books:
           - title: Hamilton-Jacobi Theory
             url: /books/post #/books/cm/cm08/04
 
-  - title: Continuum Mechanics
-    url: /books/cont_mech/cont_mech
-    chapters:
       - title: Solid Mechanics
-        url: /books/cont_mech/cont_mech01/cont_mech01
+        url: /books/cm/cm09/cm09
         sections:
           - title: Stress and Strain
-            url: /books/cont_mech/cont_mech01/01
+            url: /books/cm/cm09/01
           - title: Elasticity
-            url: /books/cont_mech/cont_mech01/02
+            url: /books/cm/cm09/02
           - title: Plasticity
-            url: /books/cont_mech/cont_mech01/03
+            url: /books/cm/cm09/03
 
-      - title: Fluid Mechanics
-        url: /books/cont_mech/cont_mech02/cont_mech02
+      - title: Solid Mechanics
+        url: /books/cm/cm10/cm10
         sections:
           - title: Fluid Statics
-            url: /books/cont_mech/cont_mech02/01
+            url: /books/cm/cm10/01
           - title: Fluid Kinematics
-            url: /books/cont_mech/cont_mech02/02
+            url: /books/cm/cm10/02
           - title: Fluid Dynamics
-            url: /books/cont_mech/cont_mech02/03
+            url: /books/cm/cm10/03
           - title: Interfacial Phenomena
-            url: /books/cont_mech/cont_mech02/04
+            url: /books/cm/cm10/04
 
   - title: Thermodynamics and Statistical Mechanics
     url: /books/tdsm/tdsm
@@ -378,38 +375,35 @@ books:
           - title: Circuit Analysis
             url: /books/em/em04/03
 
-  - title: Optics
-    url: /books/optics/optics
-    chapters:
       - title: Geometric Optics
-        url: /books/optics/optics01/optics01
+        url: /books/em/em05/em05
         sections:
           - title: Reflection and Refraction
-            url: /books/optics/optics01/01
+            url: /books/em/em05/01
           - title: Optical Systems
-            url: /books/optics/optics01/02
+            url: /books/em/em05/02
 
       - title: Physical Optics
-        url: /books/optics/optics02/optics02
+        url: /books/em/em06/em06
         sections:
           - title: Light Waves
-            url: /books/optics/optics02/01
+            url: /books/em/em06/01
           - title: Interference and Diffraction
-            url: /books/optics/optics02/02
+            url: /books/em/em06/02
           - title: Polarization
-            url: /books/optics/optics02/03
+            url: /books/em/em06/03
 
       - title: Radiometry and Photometry
-        url: /books/optics/optics03/optics03
+        url: /books/em/em07/em07
         sections:
           - title: Radiometric Quantities
-            url: /books/optics/optics03/01
+            url: /books/em/em07/01
           - title: Photometric Quantities
-            url: /books/optics/optics03/02
+            url: /books/em/em07/02
           - title: Radiative Transfer
-            url: /books/optics/optics03/03
+            url: /books/em/em07/03
           - title: Optical Measurements
-            url: /books/optics/optics03/04
+            url: /books/em/em07/04
 
   - title: Relativity
     url: /books/rel/rel
